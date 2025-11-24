@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Probability</fullName>
+    <type>Percent</type>
+    <required>false</required>
+    <scale>0</scale>
+    <precision>3</precision>
+    <trackTrending>false</trackTrending>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>
