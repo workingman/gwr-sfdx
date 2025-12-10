@@ -1,9 +1,8 @@
-trigger AccountSegmentTrigger on Account (before insert, before update) {
+trigger gwr_segment_trigger on Account (before insert, before update) {
     for (Account acc : Trigger.new) {
         acc.gwr_Customer_Segment__c = calculateSegment(acc);
     }
-}
-// 20251209-231226
+    // 20251209-231226
 private String calculateSegment(Account acc) {
     Integer employees = acc.NumberOfEmployees != null ? acc.NumberOfEmployees : 0;
     Decimal revenue = acc.AnnualRevenue != null ? acc.AnnualRevenue : 0;
@@ -21,4 +20,5 @@ private String calculateSegment(Account acc) {
 
     // Commercial: Everyone else
     return 'Commercial';
+}
 }
