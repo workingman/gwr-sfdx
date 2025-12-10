@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>gwr_Customer_Segment__c</fullName>
+    <label>1Customer Segment</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <value>
+                <fullName>Commercial</fullName>
+                <isActive>true</isActive>
+                <label>Commercial</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Enterprise</fullName>
+                <isActive>true</isActive>
+                <label>Enterprise</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Strategic</fullName>
+                <isActive>true</isActive>
+                <label>Strategic</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>
