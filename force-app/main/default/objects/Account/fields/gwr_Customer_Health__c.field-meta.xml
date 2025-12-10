@@ -7,7 +7,7 @@
     <length>255</length>
     <unique>false</unique>
     <caseSensitive>false</caseSensitive>
-    <description>brilliant new description</description>
+    <description>brilliant new description___</description>
     <externalId>false</externalId>
     <trackFeedHistory>false</trackFeedHistory>
 </CustomField>
