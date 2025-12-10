@@ -25,6 +25,24 @@
                 <label>Strategic</label>
                 <default>false</default>
             </value>
+            <value>
+                <fullName>Federal</fullName>
+                <isActive>true</isActive>
+                <label>Federal</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>State and Local</fullName>
+                <isActive>true</isActive>
+                <label>State and Local</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>HigherEd</fullName>
+                <isActive>true</isActive>
+                <label>HigherEd</label>
+                <default>false</default>
+            </value>
         </valueSetDefinition>
     </valueSet>
     <trackFeedHistory>false</trackFeedHistory>
