@@ -1,5 +1,0 @@
-salesforce.IdentityProviderSettings {
-  enableIdentityProvider = true
-  fullName = "IdentityProvider"
-  _alias = "IdentityProvider"
-}

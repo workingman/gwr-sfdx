@@ -1,7 +1,0 @@
-salesforce.SharingRules ServiceTerritory {
-  fullName = "ServiceTerritory"
-  _parent = [
-    salesforce.ServiceTerritory,
-  ]
-  _alias = "ServiceTerritory"
-}

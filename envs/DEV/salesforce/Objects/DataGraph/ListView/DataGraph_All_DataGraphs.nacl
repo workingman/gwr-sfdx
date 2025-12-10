@@ -1,9 +1,0 @@
-salesforce.ListView DataGraph_All_DataGraphs {
-  fullName = "DataGraph.All_DataGraphs"
-  filterScope = "Everything"
-  label = "All Data Graphs"
-  _parent = [
-    salesforce.DataGraph,
-  ]
-  _alias = "All Data Graphs"
-}

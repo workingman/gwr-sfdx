@@ -1,7 +1,0 @@
-salesforce.SharingRules OperatingHours {
-  fullName = "OperatingHours"
-  _parent = [
-    salesforce.OperatingHours,
-  ]
-  _alias = "OperatingHours"
-}

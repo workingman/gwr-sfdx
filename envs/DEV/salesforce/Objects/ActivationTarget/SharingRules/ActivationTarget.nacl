@@ -1,7 +1,0 @@
-salesforce.SharingRules ActivationTarget {
-  fullName = "ActivationTarget"
-  _parent = [
-    salesforce.ActivationTarget,
-  ]
-  _alias = "ActivationTarget"
-}

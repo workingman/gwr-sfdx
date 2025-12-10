@@ -1,7 +1,0 @@
-salesforce.SharingRules AiGroundingFileRef {
-  fullName = "AiGroundingFileRef"
-  _parent = [
-    salesforce.AiGroundingFileRef,
-  ]
-  _alias = "AiGroundingFileRef"
-}

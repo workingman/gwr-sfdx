@@ -1,7 +1,0 @@
-salesforce.SharingRules Promotion {
-  fullName = "Promotion"
-  _parent = [
-    salesforce.Promotion,
-  ]
-  _alias = "Promotion"
-}

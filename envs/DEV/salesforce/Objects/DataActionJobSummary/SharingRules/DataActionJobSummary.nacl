@@ -1,7 +1,0 @@
-salesforce.SharingRules DataActionJobSummary {
-  fullName = "DataActionJobSummary"
-  _parent = [
-    salesforce.DataActionJobSummary,
-  ]
-  _alias = "DataActionJobSummary"
-}

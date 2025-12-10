@@ -1,7 +1,0 @@
-salesforce.SharingRules DataKnowledgeSrcFileRef {
-  fullName = "DataKnowledgeSrcFileRef"
-  _parent = [
-    salesforce.DataKnowledgeSrcFileRef,
-  ]
-  _alias = "DataKnowledgeSrcFileRef"
-}

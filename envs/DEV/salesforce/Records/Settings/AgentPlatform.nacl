@@ -1,5 +1,0 @@
-salesforce.AgentPlatformSettings {
-  enableAgentPlatform = false
-  fullName = "AgentPlatform"
-  _alias = "AgentPlatform"
-}

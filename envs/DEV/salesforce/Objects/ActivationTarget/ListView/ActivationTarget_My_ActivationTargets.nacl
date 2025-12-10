@@ -1,9 +1,0 @@
-salesforce.ListView ActivationTarget_My_ActivationTargets {
-  fullName = "ActivationTarget.My_ActivationTargets"
-  filterScope = "Mine"
-  label = "My Activation Targets"
-  _parent = [
-    salesforce.ActivationTarget,
-  ]
-  _alias = "My Activation Targets"
-}

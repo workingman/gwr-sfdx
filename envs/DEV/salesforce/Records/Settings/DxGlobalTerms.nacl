@@ -1,5 +1,0 @@
-salesforce.DxGlobalTermsSettings {
-  dxGlobalTermsAccepted = false
-  fullName = "DxGlobalTerms"
-  _alias = "DxGlobalTerms"
-}

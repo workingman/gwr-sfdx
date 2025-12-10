@@ -1,5 +1,0 @@
-salesforce.PaymentsSettings {
-  enablePayments = false
-  fullName = "Payments"
-  _alias = "Payments"
-}

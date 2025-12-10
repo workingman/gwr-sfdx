@@ -1,7 +1,0 @@
-salesforce.SharingRules AppointmentInvitation {
-  fullName = "AppointmentInvitation"
-  _parent = [
-    salesforce.AppointmentInvitation,
-  ]
-  _alias = "AppointmentInvitation"
-}

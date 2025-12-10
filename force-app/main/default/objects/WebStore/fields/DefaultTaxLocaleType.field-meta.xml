@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DefaultTaxLocaleType</fullName>
+    <type>Picklist</type>
+    <required>true</required>
+    <inlineHelpText>Choose Net if the product price doesn’t include tax. Choose Gross if the product price includes tax. Changing the tax type will effect any existing carts. We recommend clearing these carts to avoid any discrepancies.</inlineHelpText>
+</CustomField>

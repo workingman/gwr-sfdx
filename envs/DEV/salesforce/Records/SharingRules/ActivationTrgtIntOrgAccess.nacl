@@ -1,4 +1,0 @@
-salesforce.SharingRules ActivationTrgtIntOrgAccess {
-  fullName = "ActivationTrgtIntOrgAccess"
-  _alias = "ActivationTrgtIntOrgAccess"
-}

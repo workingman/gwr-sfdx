@@ -1,7 +1,0 @@
-salesforce.SharingRules PromotionLineItemRule {
-  fullName = "PromotionLineItemRule"
-  _parent = [
-    salesforce.PromotionLineItemRule,
-  ]
-  _alias = "PromotionLineItemRule"
-}

@@ -1,7 +1,0 @@
-salesforce.SharingRules AiGroundingWebRef {
-  fullName = "AiGroundingWebRef"
-  _parent = [
-    salesforce.AiGroundingWebRef,
-  ]
-  _alias = "AiGroundingWebRef"
-}

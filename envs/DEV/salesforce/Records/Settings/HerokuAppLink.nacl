@@ -1,5 +1,0 @@
-salesforce.HerokuAppLinkSettings {
-  enableHerokuAppLink = false
-  fullName = "HerokuAppLink"
-  _alias = "HerokuAppLink"
-}

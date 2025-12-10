@@ -1,7 +1,0 @@
-salesforce.SharingRules DataCommunicationCap {
-  fullName = "DataCommunicationCap"
-  _parent = [
-    salesforce.DataCommunicationCap,
-  ]
-  _alias = "DataCommunicationCap"
-}

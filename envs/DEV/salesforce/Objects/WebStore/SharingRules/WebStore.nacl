@@ -1,7 +1,0 @@
-salesforce.SharingRules WebStore {
-  fullName = "WebStore"
-  _parent = [
-    salesforce.WebStore,
-  ]
-  _alias = "WebStore"
-}

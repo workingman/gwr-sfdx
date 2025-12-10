@@ -1,7 +1,0 @@
-salesforce.SharingRules Shipment {
-  fullName = "Shipment"
-  _parent = [
-    salesforce.Shipment,
-  ]
-  _alias = "Shipment"
-}
