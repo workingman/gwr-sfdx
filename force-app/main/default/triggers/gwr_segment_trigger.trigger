@@ -3,7 +3,7 @@ trigger AccountSegmentTrigger on Account (before insert, before update) {
         acc.gwr_Customer_Segment__c = calculateSegment(acc);
     }
 }
-
+// 20251209-231226
 private String calculateSegment(Account acc) {
     Integer employees = acc.NumberOfEmployees != null ? acc.NumberOfEmployees : 0;
     Decimal revenue = acc.AnnualRevenue != null ? acc.AnnualRevenue : 0;
