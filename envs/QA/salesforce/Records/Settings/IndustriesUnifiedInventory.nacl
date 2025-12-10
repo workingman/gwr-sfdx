@@ -1,5 +1,0 @@
-salesforce.IndustriesUnifiedInventorySettings {
-  enableBatchManagement = false
-  fullName = "IndustriesUnifiedInventory"
-  _alias = "IndustriesUnifiedInventory"
-}

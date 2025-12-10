@@ -1,4 +1,0 @@
-salesforce.SharingRules VoiceChnlInteractionEvent {
-  fullName = "VoiceChnlInteractionEvent"
-  _alias = "VoiceChnlInteractionEvent"
-}

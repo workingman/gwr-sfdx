@@ -1,7 +1,0 @@
-salesforce.SharingRules ChangeRequest {
-  fullName = "ChangeRequest"
-  _parent = [
-    salesforce.ChangeRequest,
-  ]
-  _alias = "ChangeRequest"
-}

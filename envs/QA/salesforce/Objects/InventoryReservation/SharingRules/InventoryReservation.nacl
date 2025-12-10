@@ -1,7 +1,0 @@
-salesforce.SharingRules InventoryReservation {
-  fullName = "InventoryReservation"
-  _parent = [
-    salesforce.InventoryReservation,
-  ]
-  _alias = "InventoryReservation"
-}

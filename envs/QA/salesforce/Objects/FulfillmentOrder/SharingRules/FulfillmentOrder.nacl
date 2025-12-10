@@ -1,7 +1,0 @@
-salesforce.SharingRules FulfillmentOrder {
-  fullName = "FulfillmentOrder"
-  _parent = [
-    salesforce.FulfillmentOrder,
-  ]
-  _alias = "FulfillmentOrder"
-}

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ParentReferenceEntityId</fullName>
+    <type>Lookup</type>
+    <required>false</required>
+    <relationshipName>ParentReferenceEntity</relationshipName>
+    <inlineHelpText>The parent object of the reference entity</inlineHelpText>
+</CustomField>

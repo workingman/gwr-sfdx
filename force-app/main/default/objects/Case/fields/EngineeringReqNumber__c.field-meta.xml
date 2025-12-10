@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EngineeringReqNumber__c</fullName>
+    <label>Engineering Req Number</label>
+    <type>Text</type>
+    <required>false</required>
+    <length>12</length>
+    <unique>false</unique>
+    <caseSensitive>false</caseSensitive>
+    <externalId>false</externalId>
+    <trackTrending>false</trackTrending>
+    <trackHistory>false</trackHistory>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

@@ -1,7 +1,0 @@
-salesforce.SharingRules MessagingEndUser {
-  fullName = "MessagingEndUser"
-  _parent = [
-    salesforce.MessagingEndUser,
-  ]
-  _alias = "MessagingEndUser"
-}

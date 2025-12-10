@@ -1,7 +1,0 @@
-salesforce.SharingRules PrivacyRTBFRequest {
-  fullName = "PrivacyRTBFRequest"
-  _parent = [
-    salesforce.PrivacyRTBFRequest,
-  ]
-  _alias = "PrivacyRTBFRequest"
-}

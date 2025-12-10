@@ -1,5 +1,0 @@
-salesforce.LiveAgentSettings {
-  enableLiveAgent = false
-  fullName = "LiveAgent"
-  _alias = "LiveAgent"
-}

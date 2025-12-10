@@ -1,7 +1,0 @@
-salesforce.SharingRules CouponCodeRedemption {
-  fullName = "CouponCodeRedemption"
-  _parent = [
-    salesforce.CouponCodeRedemption,
-  ]
-  _alias = "CouponCodeRedemption"
-}

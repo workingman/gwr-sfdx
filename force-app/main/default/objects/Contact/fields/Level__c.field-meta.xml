@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Level__c</fullName>
+    <label>Level</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>Secondary</fullName>
+                <isActive>true</isActive>
+                <label>Secondary</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Tertiary</fullName>
+                <isActive>true</isActive>
+                <label>Tertiary</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Primary</fullName>
+                <isActive>true</isActive>
+                <label>Primary</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

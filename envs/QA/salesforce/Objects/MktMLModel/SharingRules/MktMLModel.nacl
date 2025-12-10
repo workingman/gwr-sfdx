@@ -1,7 +1,0 @@
-salesforce.SharingRules MktMLModel {
-  fullName = "MktMLModel"
-  _parent = [
-    salesforce.MktMLModel,
-  ]
-  _alias = "MktMLModel"
-}

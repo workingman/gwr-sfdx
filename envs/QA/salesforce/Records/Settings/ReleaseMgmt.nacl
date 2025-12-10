@@ -1,6 +1,0 @@
-salesforce.ReleaseMgmtSettings {
-  enableITSMReleaseMgmt = false
-  enableReleaseEventCreation = false
-  fullName = "ReleaseMgmt"
-  _alias = "ReleaseMgmt"
-}

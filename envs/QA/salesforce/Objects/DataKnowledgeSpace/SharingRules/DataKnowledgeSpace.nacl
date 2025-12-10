@@ -1,7 +1,0 @@
-salesforce.SharingRules DataKnowledgeSpace {
-  fullName = "DataKnowledgeSpace"
-  _parent = [
-    salesforce.DataKnowledgeSpace,
-  ]
-  _alias = "DataKnowledgeSpace"
-}

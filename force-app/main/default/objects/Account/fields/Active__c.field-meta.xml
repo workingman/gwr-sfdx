@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active__c</fullName>
+    <label>Active</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>No</fullName>
+                <isActive>true</isActive>
+                <label>No</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Yes</fullName>
+                <isActive>true</isActive>
+                <label>Yes</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>

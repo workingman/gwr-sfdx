@@ -1,7 +1,0 @@
-salesforce.SharingRules ShippingCarrierMethod {
-  fullName = "ShippingCarrierMethod"
-  _parent = [
-    salesforce.ShippingCarrierMethod,
-  ]
-  _alias = "ShippingCarrierMethod"
-}

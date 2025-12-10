@@ -1,9 +1,0 @@
-salesforce.ListView MktDataTransform_All_MktDataTransforms {
-  fullName = "MktDataTransform.All_MktDataTransforms"
-  filterScope = "Everything"
-  label = "All Data Transforms"
-  _parent = [
-    salesforce.MktDataTransform,
-  ]
-  _alias = "All Data Transforms"
-}

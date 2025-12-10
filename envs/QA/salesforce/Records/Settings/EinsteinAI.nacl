@@ -1,6 +1,0 @@
-salesforce.EinsteinAISettings {
-  enableAgentHealthMonitoring = false
-  enableAgentHealthMonitoringGA = false
-  fullName = "EinsteinAI"
-  _alias = "EinsteinAI"
-}

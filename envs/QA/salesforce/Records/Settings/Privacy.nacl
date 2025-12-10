@@ -1,6 +1,0 @@
-salesforce.PrivacySettings {
-  enableConsentEventStream = false
-  enableDefaultMetadataValues = false
-  fullName = "Privacy"
-  _alias = "Privacy"
-}

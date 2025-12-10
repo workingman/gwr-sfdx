@@ -1,5 +1,0 @@
-salesforce.InvLatePymntRiskCalcSettings {
-  enableInvLatePymntRiskCalc = false
-  fullName = "InvLatePymntRiskCalc"
-  _alias = "InvLatePymntRiskCalc"
-}
