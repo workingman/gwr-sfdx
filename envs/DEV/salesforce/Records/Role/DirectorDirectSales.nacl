@@ -1,0 +1,11 @@
+salesforce.Role DirectorDirectSales {
+  caseAccessLevel = "Edit"
+  contactAccessLevel = "Edit"
+  description = "Director, Direct Sales"
+  mayForecastManagerShare = false
+  name = "Director, Direct Sales"
+  opportunityAccessLevel = "Edit"
+  parentRole = salesforce.Role.instance.VPNorthAmericanSales
+  fullName = "DirectorDirectSales"
+  _alias = "DirectorDirectSales"
+}

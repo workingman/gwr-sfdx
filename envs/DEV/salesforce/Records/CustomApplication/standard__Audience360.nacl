@@ -1,0 +1,43 @@
+salesforce.CustomApplication standard__Audience360 {
+  formFactors = [
+    "Large",
+  ]
+  isNavAutoTempTabsDisabled = false
+  isNavPersonalizationDisabled = false
+  isNavTabPersistenceDisabled = false
+  isOmniPinnedViewEnabled = false
+  label = "Audience360"
+  navType = "Standard"
+  tabs = [
+    "standard-home",
+    "standard-DataStream",
+    "standard-DataLakeObjectInstance",
+    "standard-DataModel",
+    "standard-DataView",
+    "standard-EinsteinStudio",
+    "standard-SemanticModel",
+    "standard-IdentityResolution",
+    "standard-ProfileExplorer",
+    "standard-MktCalculatedInsight",
+    "standard-DataActionTarget",
+    "standard-DataAction",
+    "standard-MarketSegment",
+    "standard-ActivationTarget",
+    "standard-MarketSegmentActivation",
+    "standard-MlWorkspace",
+    "standard-DataSemanticSearch",
+    "standard-MktAiPredictiveInsight",
+    "standard-DataGraph",
+    "standard-ExtDataShare",
+    "standard-ExtDataShareTarget",
+    "standard-DataQueryWorkspace",
+    "standard-MktDataTransform",
+    "standard-report",
+    "standard-Dashboard",
+    "standard-UnstructuredData",
+    "standard-DataObjSecondaryIndex",
+  ]
+  uiType = "Lightning"
+  fullName = "standard__Audience360"
+  _alias = "Audience360 (standard)"
+}

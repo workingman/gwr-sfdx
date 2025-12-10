@@ -1,0 +1,7 @@
+salesforce.SharingRules AiGroundingSourceStage {
+  fullName = "AiGroundingSourceStage"
+  _parent = [
+    salesforce.AiGroundingSourceStage,
+  ]
+  _alias = "AiGroundingSourceStage"
+}

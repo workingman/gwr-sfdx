@@ -1,0 +1,142 @@
+type salesforce.MktDataTransform {
+  salesforce.Lookup DataTransformDefinitionId {
+    apiName = "MktDataTransform.DataTransformDefinitionId"
+  }
+  salesforce.Picklist DataTransformStatus {
+    apiName = "MktDataTransform.DataTransformStatus"
+    label = "Data Transform Status"
+    _required = true
+    restricted = true
+  }
+  salesforce.Checkbox IsSystem {
+    apiName = "MktDataTransform.IsSystem"
+    label = "System"
+    defaultValue = false
+  }
+  salesforce.Picklist LastRunStatus {
+    apiName = "MktDataTransform.LastRunStatus"
+    label = "Last Run Status"
+    _required = true
+    restricted = true
+  }
+  salesforce.DateTime LastRunTime {
+    apiName = "MktDataTransform.LastRunTime"
+    label = "Last Run Time"
+  }
+  salesforce.Lookup MktDataTransformSetupId {
+    apiName = "MktDataTransform.MktDataTransformSetupId"
+  }
+  salesforce.Text Name {
+    apiName = "MktDataTransform.Name"
+    label = "Data Transform Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist Type {
+    apiName = "MktDataTransform.Type"
+    label = "Type"
+    _required = true
+    restricted = true
+  }
+  serviceid Id {
+    apiName = "MktDataTransform.Id"
+    label = "Data Transform ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "MktDataTransform.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "MktDataTransform.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "MktDataTransform.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "MktDataTransform.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "MktDataTransform.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "MktDataTransform.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "MktDataTransform.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastDataChangeStatusDateTime {
+    apiName = "MktDataTransform.LastDataChangeStatusDateTime"
+    label = "Last Data Change Status At"
+  }
+  salesforce.Text LastDataChangeStatusErrorCode {
+    apiName = "MktDataTransform.LastDataChangeStatusErrorCode"
+    label = "Last Data Change Status Error Code"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist CreationType {
+    apiName = "MktDataTransform.CreationType"
+    label = "Creation Type"
+    _required = true
+    restricted = true
+  }
+  salesforce.Text TargetObject {
+    apiName = "MktDataTransform.TargetObject"
+    label = "Target Object"
+    length = 40
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.LongTextArea DataTransformStatusDetails {
+    apiName = "MktDataTransform.DataTransformStatusDetails"
+    label = "Data Transform Status Details"
+    length = 128000
+  }
+  salesforce.Text CurrencyCode {
+    apiName = "MktDataTransform.CurrencyCode"
+    label = "Currency ISO Code"
+    length = 40
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Checkbox IsCreatedAsMultiDefinition {
+    apiName = "MktDataTransform.IsCreatedAsMultiDefinition"
+    label = "Transform created as multidefinition"
+    defaultValue = false
+  }
+  salesforce.Picklist FullRunFrequency {
+    apiName = "MktDataTransform.FullRunFrequency"
+    label = "Full Run Frequency"
+    _required = true
+    restricted = true
+  }
+  salesforce.Text CreationSource {
+    apiName = "MktDataTransform.CreationSource"
+    label = "Creation Source"
+    length = 40
+    unique = false
+    caseSensitive = false
+  }
+}

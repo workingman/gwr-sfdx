@@ -1,0 +1,177 @@
+type salesforce.ActivationTarget {
+  salesforce.Picklist ConnectionType {
+    apiName = "ActivationTarget.ConnectionType"
+    label = "Platform"
+    _required = true
+    restricted = true
+  }
+  salesforce.Lookup DataConConfigurationId {
+    apiName = "ActivationTarget.DataConConfigurationId"
+  }
+  salesforce.Text Description {
+    apiName = "ActivationTarget.Description"
+    label = "Description"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Checkbox IsCommunicationCappingEnabled {
+    apiName = "ActivationTarget.IsCommunicationCappingEnabled"
+    label = "Capping Relevance"
+  }
+  salesforce.DateTime LastTargetStatusDateTime {
+    apiName = "ActivationTarget.LastTargetStatusDateTime"
+    label = "Target Status Last Updated"
+  }
+  salesforce.Picklist LastTargetStatusErrorCode {
+    apiName = "ActivationTarget.LastTargetStatusErrorCode"
+    label = "Target Status Error Code"
+    restricted = true
+  }
+  salesforce.Text MasterLabel {
+    apiName = "ActivationTarget.MasterLabel"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text OwnedByOrg {
+    apiName = "ActivationTarget.OwnedByOrg"
+    label = "Owned By"
+    length = 100
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text PlatformName {
+    apiName = "ActivationTarget.PlatformName"
+    label = "Platform Name"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist TargetStatus {
+    apiName = "ActivationTarget.TargetStatus"
+    label = "Target Status"
+    restricted = true
+  }
+  salesforce.Picklist TargetType {
+    apiName = "ActivationTarget.TargetType"
+    label = "Target Type"
+    restricted = true
+  }
+  serviceid Id {
+    apiName = "ActivationTarget.Id"
+    label = "Partner Profile ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "ActivationTarget.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "ActivationTarget.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "ActivationTarget.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "ActivationTarget.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "ActivationTarget.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "ActivationTarget.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "ActivationTarget.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+  salesforce.Picklist RunStatus {
+    apiName = "ActivationTarget.RunStatus"
+    label = "Data Export Run Status"
+    _required = true
+    restricted = true
+  }
+  salesforce.DateTime LastPublishStatusDate {
+    apiName = "ActivationTarget.LastPublishStatusDate"
+    label = "Last Publish Status Date"
+  }
+  salesforce.Text LastPublishStatusErrorMessage {
+    apiName = "ActivationTarget.LastPublishStatusErrorMessage"
+    label = "Last Publish Status Error Message"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text ExportToDirectory {
+    apiName = "ActivationTarget.ExportToDirectory"
+    label = "Export To Directory"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text ExportToEndpoint {
+    apiName = "ActivationTarget.ExportToEndpoint"
+    label = "Export To Endpoint"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist OutputFormat {
+    apiName = "ActivationTarget.OutputFormat"
+    label = "Output Format"
+    restricted = true
+  }
+  salesforce.Text PlatformPrivacyType {
+    apiName = "ActivationTarget.PlatformPrivacyType"
+    label = "Platform Privacy Type"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Checkbox IsRemote {
+    apiName = "ActivationTarget.IsRemote"
+    label = "Is Remote"
+    defaultValue = false
+  }
+  salesforce.Text AudienceHistoryDmoName {
+    apiName = "ActivationTarget.AudienceHistoryDmoName"
+    label = "Audience History DMO"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text AudienceLatestDmoName {
+    apiName = "ActivationTarget.AudienceLatestDmoName"
+    label = "Audience Latest DMO"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text AuditDmoName {
+    apiName = "ActivationTarget.AuditDmoName"
+    label = "Audit DMO"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+}

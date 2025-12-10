@@ -1,0 +1,4 @@
+salesforce.AIReplyRecommendationsSettings {
+  fullName = "AIReplyRecommendations"
+  _alias = "AIReplyRecommendations"
+}

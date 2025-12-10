@@ -1,0 +1,23 @@
+type salesforce.SocialPersona {
+  salesforce.Unknown ExternalId {
+    apiName = "SocialPersona.ExternalId"
+  }
+  salesforce.Unknown ExternalPictureURL {
+    apiName = "SocialPersona.ExternalPictureURL"
+  }
+  salesforce.Unknown Name {
+    apiName = "SocialPersona.Name"
+  }
+  salesforce.MasterDetail ParentId {
+    apiName = "SocialPersona.ParentId"
+  }
+  salesforce.Unknown ProfileUrl {
+    apiName = "SocialPersona.ProfileUrl"
+  }
+  salesforce.Unknown Provider {
+    apiName = "SocialPersona.Provider"
+  }
+  salesforce.Unknown SourceApp {
+    apiName = "SocialPersona.SourceApp"
+  }
+}

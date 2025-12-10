@@ -1,0 +1,156 @@
+type salesforce.Account {
+  salesforce.Picklist Active__c {
+    apiName = "Account.Active__c"
+    label = "Active"
+    valueSet = {
+      values = {
+        No = {
+          fullName = "No"
+          default = false
+          label = "No"
+        }
+        Yes = {
+          fullName = "Yes"
+          default = false
+          label = "Yes"
+        }
+      }
+      order = [
+        salesforce.Account.field.Active__c.valueSet.values.No,
+        salesforce.Account.field.Active__c.valueSet.values.Yes,
+      ]
+    }
+    sorted = false
+    restricted = false
+  }
+  salesforce.Picklist CustomerPriority__c {
+    apiName = "Account.CustomerPriority__c"
+    label = "Customer Priority"
+    valueSet = {
+      values = {
+        High = {
+          fullName = "High"
+          default = false
+          label = "High"
+        }
+        Low = {
+          fullName = "Low"
+          default = false
+          label = "Low"
+        }
+        Medium = {
+          fullName = "Medium"
+          default = false
+          label = "Medium"
+        }
+      }
+      order = [
+        salesforce.Account.field.CustomerPriority__c.valueSet.values.High,
+        salesforce.Account.field.CustomerPriority__c.valueSet.values.Low,
+        salesforce.Account.field.CustomerPriority__c.valueSet.values.Medium,
+      ]
+    }
+    sorted = false
+    restricted = false
+  }
+  salesforce.Number NumberofLocations__c {
+    apiName = "Account.NumberofLocations__c"
+    externalId = false
+    label = "Number of Locations"
+    precision = 3
+    scale = 0
+    unique = false
+  }
+  salesforce.Date SLAExpirationDate__c {
+    apiName = "Account.SLAExpirationDate__c"
+    label = "SLA Expiration Date"
+  }
+  salesforce.Text SLASerialNumber__c {
+    apiName = "Account.SLASerialNumber__c"
+    externalId = false
+    label = "SLA Serial Number"
+    length = 10
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist SLA__c {
+    apiName = "Account.SLA__c"
+    label = "SLA"
+    valueSet = {
+      values = {
+        Gold = {
+          fullName = "Gold"
+          default = false
+          label = "Gold"
+        }
+        Silver = {
+          fullName = "Silver"
+          default = false
+          label = "Silver"
+        }
+        Platinum = {
+          fullName = "Platinum"
+          default = false
+          label = "Platinum"
+        }
+        Bronze = {
+          fullName = "Bronze"
+          default = false
+          label = "Bronze"
+        }
+        Chrome = {
+          fullName = "Chrome"
+          default = false
+          label = "Chrome"
+        }
+      }
+      order = [
+        salesforce.Account.field.SLA__c.valueSet.values.Gold,
+        salesforce.Account.field.SLA__c.valueSet.values.Silver,
+        salesforce.Account.field.SLA__c.valueSet.values.Platinum,
+        salesforce.Account.field.SLA__c.valueSet.values.Bronze,
+        salesforce.Account.field.SLA__c.valueSet.values.Chrome,
+      ]
+    }
+    sorted = false
+    restricted = false
+  }
+  salesforce.Picklist UpsellOpportunity__c {
+    apiName = "Account.UpsellOpportunity__c"
+    label = "Upsell Opportunity"
+    valueSet = {
+      values = {
+        Maybe = {
+          fullName = "Maybe"
+          default = false
+          label = "Maybe"
+        }
+        No = {
+          fullName = "No"
+          default = false
+          label = "No"
+        }
+        Yes = {
+          fullName = "Yes"
+          default = false
+          label = "Yes"
+        }
+      }
+      order = [
+        salesforce.Account.field.UpsellOpportunity__c.valueSet.values.Maybe,
+        salesforce.Account.field.UpsellOpportunity__c.valueSet.values.No,
+        salesforce.Account.field.UpsellOpportunity__c.valueSet.values.Yes,
+      ]
+    }
+    sorted = false
+    restricted = false
+  }
+  salesforce.Text gwr_Customer_Health__c {
+    apiName = "Account.gwr_Customer_Health__c"
+    externalId = false
+    label = "1Customer Health"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+}

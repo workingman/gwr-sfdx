@@ -1,0 +1,7 @@
+salesforce.SharingRules DataLineageNodeDefSyncLog {
+  fullName = "DataLineageNodeDefSyncLog"
+  _parent = [
+    salesforce.DataLineageNodeDefSyncLog,
+  ]
+  _alias = "DataLineageNodeDefSyncLog"
+}

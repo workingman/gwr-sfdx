@@ -1,0 +1,35 @@
+salesforce.StandardValueSet FiscalYearPeriodPrefix {
+  fullName = "FiscalYearPeriodPrefix"
+  sorted = false
+  standardValue = {
+    values = {
+      Period = {
+        fullName = "Period"
+        default = true
+        label = "Period"
+      }
+      FP = {
+        fullName = "FP"
+        default = false
+        label = "FP"
+      }
+      P = {
+        fullName = "P"
+        default = false
+        label = "P"
+      }
+      Month = {
+        fullName = "Month"
+        default = false
+        label = "Month"
+      }
+    }
+    order = [
+      salesforce.StandardValueSet.instance.FiscalYearPeriodPrefix.standardValue.values.Period,
+      salesforce.StandardValueSet.instance.FiscalYearPeriodPrefix.standardValue.values.FP,
+      salesforce.StandardValueSet.instance.FiscalYearPeriodPrefix.standardValue.values.P,
+      salesforce.StandardValueSet.instance.FiscalYearPeriodPrefix.standardValue.values.Month,
+    ]
+  }
+  _alias = "FiscalYearPeriodPrefix"
+}

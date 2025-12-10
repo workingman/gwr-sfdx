@@ -1,0 +1,946 @@
+salesforce.StandardValueSetTranslation AddressCountryCode_ja@b {
+  valueTranslation = [
+    {
+      masterLabel = "Afghanistan"
+      translation = "アフガニスタン"
+    },
+    {
+      masterLabel = "Aland Islands"
+      translation = "オーランド諸島"
+    },
+    {
+      masterLabel = "Albania"
+      translation = "アルバニア"
+    },
+    {
+      masterLabel = "Algeria"
+      translation = "アルジェリア"
+    },
+    {
+      masterLabel = "Andorra"
+      translation = "アンドラ"
+    },
+    {
+      masterLabel = "Angola"
+      translation = "アンゴラ"
+    },
+    {
+      masterLabel = "Anguilla"
+      translation = "アングィラ"
+    },
+    {
+      masterLabel = "Antarctica"
+      translation = "南極"
+    },
+    {
+      masterLabel = "Antigua and Barbuda"
+      translation = "アンチグアバーブーダ"
+    },
+    {
+      masterLabel = "Argentina"
+      translation = "アルゼンチン"
+    },
+    {
+      masterLabel = "Armenia"
+      translation = "アルメニア"
+    },
+    {
+      masterLabel = "Aruba"
+      translation = "アルーバ"
+    },
+    {
+      masterLabel = "Australia"
+      translation = "オーストラリア"
+    },
+    {
+      masterLabel = "Austria"
+      translation = "オーストリア"
+    },
+    {
+      masterLabel = "Azerbaijan"
+      translation = "アゼルバイジャン"
+    },
+    {
+      masterLabel = "Bahamas"
+      translation = "バハマ"
+    },
+    {
+      masterLabel = "Bahrain"
+      translation = "バーレーン"
+    },
+    {
+      masterLabel = "Bangladesh"
+      translation = "バングラデッシュ"
+    },
+    {
+      masterLabel = "Barbados"
+      translation = "バルバドス"
+    },
+    {
+      masterLabel = "Belarus"
+      translation = "ベラルーシ"
+    },
+    {
+      masterLabel = "Belgium"
+      translation = "ベルギー"
+    },
+    {
+      masterLabel = "Belize"
+      translation = "ベリーズ"
+    },
+    {
+      masterLabel = "Benin"
+      translation = "ベナン"
+    },
+    {
+      masterLabel = "Bermuda"
+      translation = "バミューダ"
+    },
+    {
+      masterLabel = "Bhutan"
+      translation = "ブータン"
+    },
+    {
+      masterLabel = "Bolivia, Plurinational State of"
+      translation = "ボリビア多民族国"
+    },
+    {
+      masterLabel = "Bonaire, Sint Eustatius and Saba"
+      translation = "ボネール島、シントユースタティウス島およびサバ島"
+    },
+    {
+      masterLabel = "Bosnia and Herzegovina"
+      translation = "ボスニア・ヘルツェゴヴィナ"
+    },
+    {
+      masterLabel = "Botswana"
+      translation = "ボツワナ"
+    },
+    {
+      masterLabel = "Bouvet Island"
+      translation = "ブーヴェ島"
+    },
+    {
+      masterLabel = "Brazil"
+      translation = "ブラジル"
+    },
+    {
+      masterLabel = "British Indian Ocean Territory"
+      translation = "英領インド洋植民地"
+    },
+    {
+      masterLabel = "Brunei Darussalam"
+      translation = "ブルネイダルサラーム"
+    },
+    {
+      masterLabel = "Bulgaria"
+      translation = "ブルガリア"
+    },
+    {
+      masterLabel = "Burkina Faso"
+      translation = "ブルキナファソ"
+    },
+    {
+      masterLabel = "Burundi"
+      translation = "ブルンジ"
+    },
+    {
+      masterLabel = "Cambodia"
+      translation = "カンボジア"
+    },
+    {
+      masterLabel = "Cameroon"
+      translation = "カメルーン"
+    },
+    {
+      masterLabel = "Canada"
+      translation = "カナダ"
+    },
+    {
+      masterLabel = "Cape Verde"
+      translation = "カーボベルデ"
+    },
+    {
+      masterLabel = "Cayman Islands"
+      translation = "ケイマン諸島"
+    },
+    {
+      masterLabel = "Central African Republic"
+      translation = "中央アフリカ共和国"
+    },
+    {
+      masterLabel = "Chad"
+      translation = "チャド"
+    },
+    {
+      masterLabel = "Chile"
+      translation = "チリ"
+    },
+    {
+      masterLabel = "China"
+      translation = "中国"
+    },
+    {
+      masterLabel = "Christmas Island"
+      translation = "クリスマス島"
+    },
+    {
+      masterLabel = "Cocos (Keeling) Islands"
+      translation = "ココス (キーリング) 諸島"
+    },
+    {
+      masterLabel = "Colombia"
+      translation = "コロンビア"
+    },
+    {
+      masterLabel = "Comoros"
+      translation = "コモロ"
+    },
+    {
+      masterLabel = "Congo"
+      translation = "コンゴ"
+    },
+    {
+      masterLabel = "Congo, the Democratic Republic of the"
+      translation = "コンゴ共和国"
+    },
+    {
+      masterLabel = "Cook Islands"
+      translation = "クック諸島"
+    },
+    {
+      masterLabel = "Costa Rica"
+      translation = "コスタリカ"
+    },
+    {
+      masterLabel = "Cote d'Ivoire"
+      translation = "コートジボアール"
+    },
+    {
+      masterLabel = "Croatia"
+      translation = "クロアチア"
+    },
+    {
+      masterLabel = "Curaçao"
+      translation = "キュラソー島"
+    },
+    {
+      masterLabel = "Cyprus"
+      translation = "キプロス"
+    },
+    {
+      masterLabel = "Czechia"
+      translation = "チェコ共和国"
+    },
+    {
+      masterLabel = "Denmark"
+      translation = "デンマーク"
+    },
+    {
+      masterLabel = "Djibouti"
+      translation = "ジブチ"
+    },
+    {
+      masterLabel = "Dominica"
+      translation = "ドミニカ国"
+    },
+    {
+      masterLabel = "Dominican Republic"
+      translation = "ドミニカ共和国"
+    },
+    {
+      masterLabel = "Ecuador"
+      translation = "エクアドル"
+    },
+    {
+      masterLabel = "Egypt"
+      translation = "エジプト"
+    },
+    {
+      masterLabel = "El Salvador"
+      translation = "エルサルバドル"
+    },
+    {
+      masterLabel = "Equatorial Guinea"
+      translation = "赤道ギニア"
+    },
+    {
+      masterLabel = "Eritrea"
+      translation = "エリトリア"
+    },
+    {
+      masterLabel = "Estonia"
+      translation = "エストニア"
+    },
+    {
+      masterLabel = "Eswatini"
+      translation = "エスワティニ"
+    },
+    {
+      masterLabel = "Ethiopia"
+      translation = "エチオピア"
+    },
+    {
+      masterLabel = "Falkland Islands (Malvinas)"
+      translation = "フォークランド諸島 (マルビナス)"
+    },
+    {
+      masterLabel = "Faroe Islands"
+      translation = "フェロー諸島"
+    },
+    {
+      masterLabel = "Fiji"
+      translation = "フィジー"
+    },
+    {
+      masterLabel = "Finland"
+      translation = "フィンランド"
+    },
+    {
+      masterLabel = "France"
+      translation = "フランス"
+    },
+    {
+      masterLabel = "French Guiana"
+      translation = "フランス領ギアナ"
+    },
+    {
+      masterLabel = "French Polynesia"
+      translation = "フランス領ポリネシア"
+    },
+    {
+      masterLabel = "French Southern Territories"
+      translation = "フランス南方領土"
+    },
+    {
+      masterLabel = "Gabon"
+      translation = "ガボン"
+    },
+    {
+      masterLabel = "Gambia"
+      translation = "ガンビア"
+    },
+    {
+      masterLabel = "Georgia"
+      translation = "ジョージア"
+    },
+    {
+      masterLabel = "Germany"
+      translation = "ドイツ"
+    },
+    {
+      masterLabel = "Ghana"
+      translation = "ガーナ"
+    },
+    {
+      masterLabel = "Gibraltar"
+      translation = "ジブラルタル"
+    },
+    {
+      masterLabel = "Greece"
+      translation = "ギリシャ"
+    },
+    {
+      masterLabel = "Greenland"
+      translation = "グリーンランド"
+    },
+    {
+      masterLabel = "Grenada"
+      translation = "グレナダ"
+    },
+    {
+      masterLabel = "Guadeloupe"
+      translation = "グアドループ"
+    },
+    {
+      masterLabel = "Guatemala"
+      translation = "グアテマラ"
+    },
+    {
+      masterLabel = "Guernsey"
+      translation = "ガーンジー島"
+    },
+    {
+      masterLabel = "Guinea"
+      translation = "ギニア"
+    },
+    {
+      masterLabel = "Guinea-Bissau"
+      translation = "ギニアビサウ"
+    },
+    {
+      masterLabel = "Guyana"
+      translation = "ガイアナ"
+    },
+    {
+      masterLabel = "Haiti"
+      translation = "ハイチ"
+    },
+    {
+      masterLabel = "Heard Island and McDonald Islands"
+      translation = "ハード島とマクドナルド諸島"
+    },
+    {
+      masterLabel = "Holy See (Vatican City State)"
+      translation = "ローマ教皇庁 (バチカン市国)"
+    },
+    {
+      masterLabel = "Honduras"
+      translation = "ホンジュラス"
+    },
+    {
+      masterLabel = "Hungary"
+      translation = "ハンガリー"
+    },
+    {
+      masterLabel = "Iceland"
+      translation = "アイスランド"
+    },
+    {
+      masterLabel = "India"
+      translation = "インド"
+    },
+    {
+      masterLabel = "Indonesia"
+      translation = "インドネシア"
+    },
+    {
+      masterLabel = "Iraq"
+      translation = "イラク"
+    },
+    {
+      masterLabel = "Ireland"
+      translation = "アイルランド"
+    },
+    {
+      masterLabel = "Isle of Man"
+      translation = "マン島"
+    },
+    {
+      masterLabel = "Israel"
+      translation = "イスラエル"
+    },
+    {
+      masterLabel = "Italy"
+      translation = "イタリア"
+    },
+    {
+      masterLabel = "Jamaica"
+      translation = "ジャマイカ"
+    },
+    {
+      masterLabel = "Japan"
+      translation = "日本"
+    },
+    {
+      masterLabel = "Jersey"
+      translation = "ジャージー島"
+    },
+    {
+      masterLabel = "Jordan"
+      translation = "ヨルダン"
+    },
+    {
+      masterLabel = "Kazakhstan"
+      translation = "カザフスタン"
+    },
+    {
+      masterLabel = "Kenya"
+      translation = "ケニア"
+    },
+    {
+      masterLabel = "Kiribati"
+      translation = "キリバス"
+    },
+    {
+      masterLabel = "Korea, Republic of"
+      translation = "大韓民国"
+    },
+    {
+      masterLabel = "Kosovo"
+      translation = "コソボ"
+    },
+    {
+      masterLabel = "Kuwait"
+      translation = "クウェート"
+    },
+    {
+      masterLabel = "Kyrgyzstan"
+      translation = "キルギスタン"
+    },
+    {
+      masterLabel = "Lao People's Democratic Republic"
+      translation = "ラオス人民民主共和国"
+    },
+    {
+      masterLabel = "Latvia"
+      translation = "ラトビア"
+    },
+    {
+      masterLabel = "Lebanon"
+      translation = "レバノン"
+    },
+    {
+      masterLabel = "Lesotho"
+      translation = "レソト"
+    },
+    {
+      masterLabel = "Liberia"
+      translation = "リベリア"
+    },
+    {
+      masterLabel = "Libya"
+      translation = "リビア"
+    },
+    {
+      masterLabel = "Liechtenstein"
+      translation = "リヒテンシュタイン"
+    },
+    {
+      masterLabel = "Lithuania"
+      translation = "リトアニア"
+    },
+    {
+      masterLabel = "Luxembourg"
+      translation = "ルクセンブルグ"
+    },
+    {
+      masterLabel = "Macao"
+      translation = "マカオ"
+    },
+    {
+      masterLabel = "Madagascar"
+      translation = "マダガスカル"
+    },
+    {
+      masterLabel = "Malawi"
+      translation = "マラウィ"
+    },
+    {
+      masterLabel = "Malaysia"
+      translation = "マレーシア"
+    },
+    {
+      masterLabel = "Maldives"
+      translation = "モルジブ"
+    },
+    {
+      masterLabel = "Mali"
+      translation = "マリ"
+    },
+    {
+      masterLabel = "Malta"
+      translation = "マルタ"
+    },
+    {
+      masterLabel = "Martinique"
+      translation = "マルティニーク島"
+    },
+    {
+      masterLabel = "Mauritania"
+      translation = "モーリタニア"
+    },
+    {
+      masterLabel = "Mauritius"
+      translation = "モーリシャス"
+    },
+    {
+      masterLabel = "Mayotte"
+      translation = "マイヨット"
+    },
+    {
+      masterLabel = "Mexico"
+      translation = "メキシコ"
+    },
+    {
+      masterLabel = "Moldova, Republic of"
+      translation = "モルドバ共和国"
+    },
+    {
+      masterLabel = "Monaco"
+      translation = "モナコ"
+    },
+    {
+      masterLabel = "Mongolia"
+      translation = "モンゴル"
+    },
+    {
+      masterLabel = "Montenegro"
+      translation = "モンテネグロ"
+    },
+    {
+      masterLabel = "Montserrat"
+      translation = "モントセラト"
+    },
+    {
+      masterLabel = "Morocco"
+      translation = "モロッコ"
+    },
+    {
+      masterLabel = "Mozambique"
+      translation = "モザンビーク"
+    },
+    {
+      masterLabel = "Myanmar"
+      translation = "ミャンマー"
+    },
+    {
+      masterLabel = "Namibia"
+      translation = "ナミビア"
+    },
+    {
+      masterLabel = "Nauru"
+      translation = "ナウル"
+    },
+    {
+      masterLabel = "Nepal"
+      translation = "ネパール"
+    },
+    {
+      masterLabel = "Netherlands"
+      translation = "オランダ"
+    },
+    {
+      masterLabel = "New Caledonia"
+      translation = "ニューカレドニア"
+    },
+    {
+      masterLabel = "New Zealand"
+      translation = "ニュージーランド"
+    },
+    {
+      masterLabel = "Nicaragua"
+      translation = "ニカラグア"
+    },
+    {
+      masterLabel = "Niger"
+      translation = "ニジェール"
+    },
+    {
+      masterLabel = "Nigeria"
+      translation = "ナイジェリア"
+    },
+    {
+      masterLabel = "Niue"
+      translation = "ニウエ"
+    },
+    {
+      masterLabel = "Norfolk Island"
+      translation = "ノーフォーク島"
+    },
+    {
+      masterLabel = "North Macedonia"
+      translation = "北マケドニア"
+    },
+    {
+      masterLabel = "Norway"
+      translation = "ノルウェイ"
+    },
+    {
+      masterLabel = "Oman"
+      translation = "オマーン"
+    },
+    {
+      masterLabel = "Pakistan"
+      translation = "パキスタン"
+    },
+    {
+      masterLabel = "Palestine"
+      translation = "パレスチナ"
+    },
+    {
+      masterLabel = "Panama"
+      translation = "パナマ"
+    },
+    {
+      masterLabel = "Papua New Guinea"
+      translation = "パプアニューギニア"
+    },
+    {
+      masterLabel = "Paraguay"
+      translation = "パラグアイ"
+    },
+    {
+      masterLabel = "Peru"
+      translation = "ペルー"
+    },
+    {
+      masterLabel = "Philippines"
+      translation = "フィリピン"
+    },
+    {
+      masterLabel = "Pitcairn"
+      translation = "ピトケアン"
+    },
+    {
+      masterLabel = "Poland"
+      translation = "ポーランド"
+    },
+    {
+      masterLabel = "Portugal"
+      translation = "ポルトガル"
+    },
+    {
+      masterLabel = "Qatar"
+      translation = "カタール"
+    },
+    {
+      masterLabel = "Reunion"
+      translation = "レユニオン"
+    },
+    {
+      masterLabel = "Romania"
+      translation = "ルーマニア"
+    },
+    {
+      masterLabel = "Russian Federation"
+      translation = "ロシア連邦"
+    },
+    {
+      masterLabel = "Rwanda"
+      translation = "ルワンダ"
+    },
+    {
+      masterLabel = "Saint Barthélemy"
+      translation = "セント・バーツ島"
+    },
+    {
+      masterLabel = "Saint Helena, Ascension and Tristan da Cunha"
+      translation = "セントヘレナ・アセンションおよびトリスタンダクーニャ"
+    },
+    {
+      masterLabel = "Saint Kitts and Nevis"
+      translation = "セントクリストファーネイビス"
+    },
+    {
+      masterLabel = "Saint Lucia"
+      translation = "セントルシア"
+    },
+    {
+      masterLabel = "Saint Martin (French part)"
+      translation = "サン・マルタン (フランス領)"
+    },
+    {
+      masterLabel = "Saint Pierre and Miquelon"
+      translation = "サンピエール島・ミクロン島"
+    },
+    {
+      masterLabel = "Saint Vincent and the Grenadines"
+      translation = "セントビンセントおよびグレナディーン諸島"
+    },
+    {
+      masterLabel = "Samoa"
+      translation = "サモア"
+    },
+    {
+      masterLabel = "San Marino"
+      translation = "サンマリノ"
+    },
+    {
+      masterLabel = "Sao Tome and Principe"
+      translation = "サントメプリンシペ"
+    },
+    {
+      masterLabel = "Saudi Arabia"
+      translation = "サウジアラビア"
+    },
+    {
+      masterLabel = "Senegal"
+      translation = "セネガル"
+    },
+    {
+      masterLabel = "Serbia"
+      translation = "セルビア"
+    },
+    {
+      masterLabel = "Seychelles"
+      translation = "セイシェル"
+    },
+    {
+      masterLabel = "Sierra Leone"
+      translation = "シェラレオネ"
+    },
+    {
+      masterLabel = "Singapore"
+      translation = "シンガポール"
+    },
+    {
+      masterLabel = "Sint Maarten (Dutch part)"
+      translation = "シントマールテン (オランダ領)"
+    },
+    {
+      masterLabel = "Slovakia"
+      translation = "スロバキア"
+    },
+    {
+      masterLabel = "Slovenia"
+      translation = "スロベニア"
+    },
+    {
+      masterLabel = "Solomon Islands"
+      translation = "ソロモン諸島"
+    },
+    {
+      masterLabel = "Somalia"
+      translation = "ソマリア"
+    },
+    {
+      masterLabel = "South Africa"
+      translation = "南アフリカ"
+    },
+    {
+      masterLabel = "South Georgia and the South Sandwich Islands"
+      translation = "サウスジョージア・サウスサンドウィッチ諸島"
+    },
+    {
+      masterLabel = "South Sudan"
+      translation = "南スーダン"
+    },
+    {
+      masterLabel = "Spain"
+      translation = "スペイン"
+    },
+    {
+      masterLabel = "Sri Lanka"
+      translation = "スリランカ"
+    },
+    {
+      masterLabel = "Suriname"
+      translation = "スリナム"
+    },
+    {
+      masterLabel = "Svalbard and Jan Mayen"
+      translation = "スバールバル諸島・ヤンマイエン島"
+    },
+    {
+      masterLabel = "Sweden"
+      translation = "スウェーデン"
+    },
+    {
+      masterLabel = "Switzerland"
+      translation = "スイス"
+    },
+    {
+      masterLabel = "Taiwan"
+      translation = "台湾"
+    },
+    {
+      masterLabel = "Tajikistan"
+      translation = "タジキスタン"
+    },
+    {
+      masterLabel = "Tanzania, United Republic of"
+      translation = "タンザニア連合共和国"
+    },
+    {
+      masterLabel = "Thailand"
+      translation = "タイ"
+    },
+    {
+      masterLabel = "Timor-Leste"
+      translation = "東チモール"
+    },
+    {
+      masterLabel = "Togo"
+      translation = "トーゴ"
+    },
+    {
+      masterLabel = "Tokelau"
+      translation = "トケラウ"
+    },
+    {
+      masterLabel = "Tonga"
+      translation = "トンガ"
+    },
+    {
+      masterLabel = "Trinidad and Tobago"
+      translation = "トリニダード・トバゴ"
+    },
+    {
+      masterLabel = "Tunisia"
+      translation = "チュニジア"
+    },
+    {
+      masterLabel = "Turkmenistan"
+      translation = "トルクメニスタン"
+    },
+    {
+      masterLabel = "Turks and Caicos Islands"
+      translation = "タークス・カイコス諸島"
+    },
+    {
+      masterLabel = "Tuvalu"
+      translation = "ツバル"
+    },
+    {
+      masterLabel = "Türkiye"
+      translation = "トルコ"
+    },
+    {
+      masterLabel = "Uganda"
+      translation = "ウガンダ"
+    },
+    {
+      masterLabel = "Ukraine"
+      translation = "ウクライナ"
+    },
+    {
+      masterLabel = "United Arab Emirates"
+      translation = "アラブ首長国連邦"
+    },
+    {
+      masterLabel = "United Kingdom"
+      translation = "イギリス"
+    },
+    {
+      masterLabel = "United States"
+      translation = "アメリカ"
+    },
+    {
+      masterLabel = "Uruguay"
+      translation = "ウルグアイ"
+    },
+    {
+      masterLabel = "Uzbekistan"
+      translation = "ウズベキスタン"
+    },
+    {
+      masterLabel = "Vanuatu"
+      translation = "バヌアツ"
+    },
+    {
+      masterLabel = "Venezuela, Bolivarian Republic of"
+      translation = "ベネズエラ・ボリバル共和国"
+    },
+    {
+      masterLabel = "Vietnam"
+      translation = "ベトナム"
+    },
+    {
+      masterLabel = "Virgin Islands, British"
+      translation = "イギリス領ヴァージン諸島"
+    },
+    {
+      masterLabel = "Wallis and Futuna"
+      translation = "ワリー・エ・フトゥーナ諸島"
+    },
+    {
+      masterLabel = "Western Sahara"
+      translation = "西サハラ"
+    },
+    {
+      masterLabel = "Yemen"
+      translation = "イエメン"
+    },
+    {
+      masterLabel = "Zambia"
+      translation = "ザンビア"
+    },
+    {
+      masterLabel = "Zimbabwe"
+      translation = "ジンバブエ"
+    },
+  ]
+  fullName = "AddressCountryCode-ja"
+  _alias = "AddressCountryCode-ja"
+}

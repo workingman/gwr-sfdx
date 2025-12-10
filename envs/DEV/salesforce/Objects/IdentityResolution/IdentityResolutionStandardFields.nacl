@@ -1,0 +1,160 @@
+type salesforce.IdentityResolution {
+  salesforce.Percent ConsolidationRate {
+    apiName = "IdentityResolution.ConsolidationRate"
+    label = "Consolidation Rate"
+    scale = 0
+    precision = 3
+  }
+  salesforce.Text Description {
+    apiName = "IdentityResolution.Description"
+    label = "Description"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Checkbox IsCaseSensitive {
+    apiName = "IdentityResolution.IsCaseSensitive"
+    label = "Is Case Sensitive"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsScheduled {
+    apiName = "IdentityResolution.IsScheduled"
+    label = "Is Scheduled"
+    defaultValue = false
+  }
+  salesforce.Picklist LastRunStatus {
+    apiName = "IdentityResolution.LastRunStatus"
+    label = "Last Job Status"
+    restricted = true
+  }
+  salesforce.DateTime LastRunStatusDateTime {
+    apiName = "IdentityResolution.LastRunStatusDateTime"
+    label = "Last Job Status Time"
+  }
+  salesforce.DateTime LastSuccessfulRunDateTime {
+    apiName = "IdentityResolution.LastSuccessfulRunDateTime"
+    label = "Last Job Completed"
+  }
+  salesforce.Unknown MatchedCount {
+    apiName = "IdentityResolution.MatchedCount"
+    label = "Matched Source Profiles"
+  }
+  salesforce.Text Name {
+    apiName = "IdentityResolution.Name"
+    label = "Ruleset Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Unknown SourceCount {
+    apiName = "IdentityResolution.SourceCount"
+    label = "Source Profiles"
+  }
+  salesforce.Picklist Status {
+    apiName = "IdentityResolution.Status"
+    label = "Ruleset Status"
+    _required = true
+    restricted = true
+  }
+  salesforce.Unknown TotalAnonymousRecords {
+    apiName = "IdentityResolution.TotalAnonymousRecords"
+    label = "Anonymous Unified Profiles"
+  }
+  salesforce.Unknown TotalNonAnonymousRecords {
+    apiName = "IdentityResolution.TotalNonAnonymousRecords"
+    label = "Known Unified Profiles"
+  }
+  salesforce.Unknown UnifiedCount {
+    apiName = "IdentityResolution.UnifiedCount"
+    label = "Total Unified Profiles"
+  }
+  serviceid Id {
+    apiName = "IdentityResolution.Id"
+    label = "Identity Resolution ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "IdentityResolution.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "IdentityResolution.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "IdentityResolution.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "IdentityResolution.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "IdentityResolution.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "IdentityResolution.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+  salesforce.Text ErrorMessage {
+    apiName = "IdentityResolution.ErrorMessage"
+    label = "Error Message"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist ErrorCode {
+    apiName = "IdentityResolution.ErrorCode"
+    label = "Error Code"
+    _required = true
+    restricted = true
+  }
+  salesforce.Text RootEntityLabel {
+    apiName = "IdentityResolution.RootEntityLabel"
+    label = "Primary Data Model Object"
+    length = 40
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text Suffix {
+    apiName = "IdentityResolution.Suffix"
+    label = "Ruleset ID"
+    length = 4
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.LongTextArea StatusDetails {
+    apiName = "IdentityResolution.StatusDetails"
+    label = "Error details from the last IR run"
+    length = 128000
+  }
+  salesforce.Text SecondaryEntityLabel {
+    apiName = "IdentityResolution.SecondaryEntityLabel"
+    label = "Secondary Data Model Object"
+    length = 40
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup SourceIrId {
+    apiName = "IdentityResolution.SourceIrId"
+    label = "SourceIr ID"
+    relationshipName = "SourceIr"
+  }
+  salesforce.Checkbox IsLimitedToSingleHousehold {
+    apiName = "IdentityResolution.IsLimitedToSingleHousehold"
+    label = "Is Limited To Single Household"
+    defaultValue = false
+  }
+}

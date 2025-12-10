@@ -1,0 +1,26 @@
+salesforce.QuickAction Task_Defer@v {
+  optionsCreateFeedItem = false
+  quickActionLayout = {
+    layoutSectionStyle = "TwoColumnsLeftToRight"
+    quickActionLayoutColumns = [
+      {
+        quickActionLayoutItems = [
+          {
+            emptySpace = false
+            field = salesforce.Task.field.ActivityDate
+            uiBehavior = "Edit"
+          },
+        ]
+      },
+      {
+      },
+    ]
+  }
+  standardLabel = "Defer"
+  type = "Update"
+  fullName = "Task.Defer"
+  _parent = [
+    salesforce.Task,
+  ]
+  _alias = "Task.Defer"
+}

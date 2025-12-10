@@ -1,0 +1,24 @@
+salesforce.CustomApplication standard__AgentforceStudio {
+  formFactors = [
+    "Large",
+  ]
+  isNavAutoTempTabsDisabled = false
+  isNavPersonalizationDisabled = false
+  isNavTabPersistenceDisabled = false
+  isOmniPinnedViewEnabled = false
+  label = "Agentforce Studio"
+  navType = "Console"
+  tabs = [
+    "standard-AgentforceStudio",
+  ]
+  uiType = "Lightning"
+  workspaceConfig = {
+    mappings = [
+      {
+        tab = "standard-AgentforceStudio"
+      },
+    ]
+  }
+  fullName = "standard__AgentforceStudio"
+  _alias = "Agentforce Studio (standard)"
+}

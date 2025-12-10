@@ -1,0 +1,19 @@
+salesforce.ListView Incident_MyIncidents {
+  fullName = "Incident.MyIncidents"
+  columns = [
+    "Name",
+    salesforce.Incident.field.Subject,
+    "ReportedBy",
+    salesforce.Incident.field.Priority,
+    salesforce.Incident.field.Status,
+    "AssignedUser",
+    salesforce.Incident.field.Category,
+    salesforce.Incident.field.SubCategory,
+  ]
+  filterScope = "Mine"
+  label = "My Incidents"
+  _parent = [
+    salesforce.Incident,
+  ]
+  _alias = "My Incidents"
+}

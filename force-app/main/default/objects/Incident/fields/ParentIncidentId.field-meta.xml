@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>ParentIncidentId</fullName>
-    <type>Hierarchy</type>
-    <required>false</required>
-    <relationshipName>ParentIncident</relationshipName>
-    <trackFeedHistory>false</trackFeedHistory>
-</CustomField>
