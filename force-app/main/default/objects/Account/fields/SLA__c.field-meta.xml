@@ -30,6 +30,12 @@
                 <label>Bronze</label>
                 <default>false</default>
             </value>
+            <value>
+                <fullName>Chrome</fullName>
+                <isActive>true</isActive>
+                <label>Chrome</label>
+                <default>false</default>
+            </value>
         </valueSetDefinition>
     </valueSet>
     <trackFeedHistory>false</trackFeedHistory>
