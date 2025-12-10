@@ -1,0 +1,154 @@
+salesforce.RealTimeEventSettings {
+  realTimeEvents = [
+    {
+      entityName = "ApiEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "ApiEventStream"
+      isEnabled = false
+    },
+    {
+      entityName = "ApiAnomalyEventStore"
+      isEnabled = true
+    },
+    {
+      entityName = "ApiAnomalyEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "BulkApiResultEventStore"
+      isEnabled = false
+    },
+    {
+      entityName = "BulkApiResultEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "ConcurLongRunApexErrEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "CredentialStuffingEventStore"
+      isEnabled = true
+    },
+    {
+      entityName = "CredentialStuffingEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "FileEventStore"
+      isEnabled = false
+    },
+    {
+      entityName = "FileEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "GuestUserAnomalyEventStore"
+      isEnabled = true
+    },
+    {
+      entityName = "GuestUserAnomalyEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "LoginAnomalyEventStore"
+      isEnabled = true
+    },
+    {
+      entityName = "LoginAnomalyEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "IdentityVerificationEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "IdentityProviderEventStore"
+      isEnabled = false
+    },
+    {
+      entityName = "LightningUriEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "LightningUriEventStream"
+      isEnabled = false
+    },
+    {
+      entityName = "ListViewEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "ListViewEventStream"
+      isEnabled = false
+    },
+    {
+      entityName = "LoginEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "LoginEventStream"
+      isEnabled = false
+    },
+    {
+      entityName = "LoginAsEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "LoginAsEventStream"
+      isEnabled = false
+    },
+    {
+      entityName = "LogoutEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "LogoutEventStream"
+      isEnabled = false
+    },
+    {
+      entityName = "PermissionSetEventStore"
+      isEnabled = false
+    },
+    {
+      entityName = "PermissionSetEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "ReportEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "ReportEventStream"
+      isEnabled = false
+    },
+    {
+      entityName = "ReportAnomalyEventStore"
+      isEnabled = true
+    },
+    {
+      entityName = "ReportAnomalyEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "SessionHijackingEventStore"
+      isEnabled = true
+    },
+    {
+      entityName = "SessionHijackingEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "UriEvent"
+      isEnabled = false
+    },
+    {
+      entityName = "UriEventStream"
+      isEnabled = false
+    },
+  ]
+  fullName = "RealTimeEvent"
+  _alias = "RealTimeEvent"
+}

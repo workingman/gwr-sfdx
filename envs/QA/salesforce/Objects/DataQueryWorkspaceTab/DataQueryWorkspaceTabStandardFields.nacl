@@ -1,0 +1,81 @@
+type salesforce.DataQueryWorkspaceTab {
+  serviceid Id {
+    apiName = "DataQueryWorkspaceTab.Id"
+    label = "Query Tab Id"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "DataQueryWorkspaceTab.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.Text Name {
+    apiName = "DataQueryWorkspaceTab.Name"
+    label = "Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "DataQueryWorkspaceTab.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "DataQueryWorkspaceTab.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "DataQueryWorkspaceTab.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "DataQueryWorkspaceTab.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "DataQueryWorkspaceTab.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+  salesforce.Lookup QueryWorkspaceId {
+    apiName = "DataQueryWorkspaceTab.QueryWorkspaceId"
+    label = "Query Editor ID"
+    _required = true
+    relationshipName = "QueryWorkspace"
+  }
+  salesforce.Text Entity {
+    apiName = "DataQueryWorkspaceTab.Entity"
+    label = "Entity"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text EntityType {
+    apiName = "DataQueryWorkspaceTab.EntityType"
+    label = "Data Query Workspace Tab Type"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text TabOption {
+    apiName = "DataQueryWorkspaceTab.TabOption"
+    label = "Tab Option"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.LongTextArea Query {
+    apiName = "DataQueryWorkspaceTab.Query"
+    label = "Query"
+    length = 32000
+  }
+}

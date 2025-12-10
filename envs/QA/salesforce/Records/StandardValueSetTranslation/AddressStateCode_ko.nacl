@@ -1,0 +1,1542 @@
+salesforce.StandardValueSetTranslation AddressStateCode_ko@b {
+  valueTranslation = [
+    {
+      masterLabel = "Acre"
+      translation = "아크레"
+    },
+    {
+      masterLabel = "Agrigento"
+      translation = "아그리젠토"
+    },
+    {
+      masterLabel = "Aguascalientes"
+      translation = "아과스칼리엔테스"
+    },
+    {
+      masterLabel = "Aichi"
+      translation = "아이치"
+    },
+    {
+      masterLabel = "Akita"
+      translation = "아키타"
+    },
+    {
+      masterLabel = "Alabama"
+      translation = "앨라배마"
+    },
+    {
+      masterLabel = "Alagoas"
+      translation = "알라고아스"
+    },
+    {
+      masterLabel = "Alaska"
+      translation = "알래스카"
+    },
+    {
+      masterLabel = "Alberta"
+      translation = "알버타"
+    },
+    {
+      masterLabel = "Alessandria"
+      translation = "알레산드리아"
+    },
+    {
+      masterLabel = "Amapá"
+      translation = "아마파"
+    },
+    {
+      masterLabel = "Amazonas"
+      translation = "아마조나스"
+    },
+    {
+      masterLabel = "Ancona"
+      translation = "앙코나"
+    },
+    {
+      masterLabel = "Andaman and Nicobar Islands"
+      translation = "안다만 니코바르 군도"
+    },
+    {
+      masterLabel = "Andhra Pradesh"
+      translation = "안드라 프라데시"
+    },
+    {
+      masterLabel = "Anhui"
+      translation = "안후이"
+    },
+    {
+      masterLabel = "Aomori"
+      translation = "아오모리"
+    },
+    {
+      masterLabel = "Aosta"
+      translation = "아오스타"
+    },
+    {
+      masterLabel = "Arezzo"
+      translation = "아레초"
+    },
+    {
+      masterLabel = "Arizona"
+      translation = "애리조나"
+    },
+    {
+      masterLabel = "Arkansas"
+      translation = "아칸소"
+    },
+    {
+      masterLabel = "Arunachal Pradesh"
+      translation = "아루나찰 프라"
+    },
+    {
+      masterLabel = "Ascoli Piceno"
+      translation = "아스콜리피체노"
+    },
+    {
+      masterLabel = "Assam"
+      translation = "아삼"
+    },
+    {
+      masterLabel = "Asti"
+      translation = "아스티"
+    },
+    {
+      masterLabel = "Australian Capital Territory"
+      translation = "오스트레일리아 수도 특별 지역"
+    },
+    {
+      masterLabel = "Avellino"
+      translation = "아벨리노"
+    },
+    {
+      masterLabel = "Bahia"
+      translation = "바이아"
+    },
+    {
+      masterLabel = "Baja California"
+      translation = "바하칼리포르니아"
+    },
+    {
+      masterLabel = "Baja California Sur"
+      translation = "바하칼리포르니아수르"
+    },
+    {
+      masterLabel = "Bari"
+      translation = "바리"
+    },
+    {
+      masterLabel = "Barletta-Andria-Trani"
+      translation = "바를레타-안드리아-트라니"
+    },
+    {
+      masterLabel = "Beijing"
+      translation = "베이징"
+    },
+    {
+      masterLabel = "Belluno"
+      translation = "벨루노"
+    },
+    {
+      masterLabel = "Benevento"
+      translation = "베네벤토"
+    },
+    {
+      masterLabel = "Bergamo"
+      translation = "베르가모"
+    },
+    {
+      masterLabel = "Biella"
+      translation = "비엘라"
+    },
+    {
+      masterLabel = "Bihar"
+      translation = "비하"
+    },
+    {
+      masterLabel = "Bologna"
+      translation = "볼로냐"
+    },
+    {
+      masterLabel = "Bolzano"
+      translation = "볼차노"
+    },
+    {
+      masterLabel = "Brescia"
+      translation = "브레시아"
+    },
+    {
+      masterLabel = "Brindisi"
+      translation = "브린디시"
+    },
+    {
+      masterLabel = "British Columbia"
+      translation = "브리티시 컬럼비아"
+    },
+    {
+      masterLabel = "Cagliari"
+      translation = "칼리아리"
+    },
+    {
+      masterLabel = "California"
+      translation = "캘리포니아"
+    },
+    {
+      masterLabel = "Caltanissetta"
+      translation = "칼타니세타"
+    },
+    {
+      masterLabel = "Campeche"
+      translation = "캄페체"
+    },
+    {
+      masterLabel = "Campobasso"
+      translation = "캄포바소"
+    },
+    {
+      masterLabel = "Carbonia-Iglesias"
+      translation = "카르보니아 이글레시아스"
+    },
+    {
+      masterLabel = "Carlow"
+      translation = "칼로"
+    },
+    {
+      masterLabel = "Caserta"
+      translation = "카세르타"
+    },
+    {
+      masterLabel = "Catania"
+      translation = "카타니아"
+    },
+    {
+      masterLabel = "Catanzaro"
+      translation = "카탄차로"
+    },
+    {
+      masterLabel = "Cavan"
+      translation = "카반"
+    },
+    {
+      masterLabel = "Ceará"
+      translation = "세아라"
+    },
+    {
+      masterLabel = "Chandigarh"
+      translation = "찬디가르"
+    },
+    {
+      masterLabel = "Chhattisgarh"
+      translation = "짜띠스가르"
+    },
+    {
+      masterLabel = "Chiapas"
+      translation = "치아파스"
+    },
+    {
+      masterLabel = "Chiba"
+      translation = "지바"
+    },
+    {
+      masterLabel = "Chieti"
+      translation = "키에티"
+    },
+    {
+      masterLabel = "Chihuahua"
+      translation = "치와와"
+    },
+    {
+      masterLabel = "Chongqing"
+      translation = "충칭"
+    },
+    {
+      masterLabel = "Clare"
+      translation = "클레어"
+    },
+    {
+      masterLabel = "Coahuila"
+      translation = "코아윌라"
+    },
+    {
+      masterLabel = "Colima"
+      translation = "콜리마"
+    },
+    {
+      masterLabel = "Colorado"
+      translation = "콜로라도"
+    },
+    {
+      masterLabel = "Como"
+      translation = "코모"
+    },
+    {
+      masterLabel = "Connecticut"
+      translation = "코네티컷"
+    },
+    {
+      masterLabel = "Cork"
+      translation = "코르크"
+    },
+    {
+      masterLabel = "Cosenza"
+      translation = "코센차"
+    },
+    {
+      masterLabel = "Cremona"
+      translation = "크레모나"
+    },
+    {
+      masterLabel = "Crotone"
+      translation = "크로토네"
+    },
+    {
+      masterLabel = "Cuneo"
+      translation = "쿠네오"
+    },
+    {
+      masterLabel = "Dadra and Nagar Haveli"
+      translation = "다드라나가르하벨리"
+    },
+    {
+      masterLabel = "Daman and Diu"
+      translation = "디만디우"
+    },
+    {
+      masterLabel = "Delaware"
+      translation = "델라웨어"
+    },
+    {
+      masterLabel = "Delhi"
+      translation = "델리"
+    },
+    {
+      masterLabel = "District of Columbia"
+      translation = "컬럼비아 특별구"
+    },
+    {
+      masterLabel = "Distrito Federal"
+      translation = "연방 주"
+    },
+    {
+      masterLabel = "Donegal"
+      translation = "도니골"
+    },
+    {
+      masterLabel = "Dublin"
+      translation = "더블린"
+    },
+    {
+      masterLabel = "Durango"
+      translation = "두랑고"
+    },
+    {
+      masterLabel = "Ehime"
+      translation = "에히메"
+    },
+    {
+      masterLabel = "Enna"
+      translation = "엔나"
+    },
+    {
+      masterLabel = "Espírito Santo"
+      translation = "에스삐리또 산또"
+    },
+    {
+      masterLabel = "Federal District"
+      translation = "연방구"
+    },
+    {
+      masterLabel = "Fermo"
+      translation = "페르모"
+    },
+    {
+      masterLabel = "Ferrara"
+      translation = "페라라"
+    },
+    {
+      masterLabel = "Florence"
+      translation = "플로렌스"
+    },
+    {
+      masterLabel = "Florida"
+      translation = "플로리다"
+    },
+    {
+      masterLabel = "Foggia"
+      translation = "포자"
+    },
+    {
+      masterLabel = "Forlì-Cesena"
+      translation = "포를리체세나"
+    },
+    {
+      masterLabel = "Frosinone"
+      translation = "프로시노네"
+    },
+    {
+      masterLabel = "Fujian"
+      translation = "푸젠"
+    },
+    {
+      masterLabel = "Fukui"
+      translation = "후쿠이"
+    },
+    {
+      masterLabel = "Fukuoka"
+      translation = "후쿠오카"
+    },
+    {
+      masterLabel = "Fukushima"
+      translation = "후쿠시마"
+    },
+    {
+      masterLabel = "Galway"
+      translation = "골웨이"
+    },
+    {
+      masterLabel = "Gansu"
+      translation = "간쑤"
+    },
+    {
+      masterLabel = "Genoa"
+      translation = "제노바"
+    },
+    {
+      masterLabel = "Georgia"
+      translation = "그루지야"
+    },
+    {
+      masterLabel = "Gifu"
+      translation = "기후"
+    },
+    {
+      masterLabel = "Goa"
+      translation = "고아"
+    },
+    {
+      masterLabel = "Goiás"
+      translation = "고이아스"
+    },
+    {
+      masterLabel = "Gorizia"
+      translation = "고리치아"
+    },
+    {
+      masterLabel = "Grosseto"
+      translation = "그로세토"
+    },
+    {
+      masterLabel = "Guanajuato"
+      translation = "과나후아토"
+    },
+    {
+      masterLabel = "Guangdong"
+      translation = "광둥"
+    },
+    {
+      masterLabel = "Guangxi"
+      translation = "광시좡족자치구"
+    },
+    {
+      masterLabel = "Guerrero"
+      translation = "게레로"
+    },
+    {
+      masterLabel = "Guizhou"
+      translation = "구이저우"
+    },
+    {
+      masterLabel = "Gujarat"
+      translation = "구자라트"
+    },
+    {
+      masterLabel = "Gunma"
+      translation = "군마"
+    },
+    {
+      masterLabel = "Hainan"
+      translation = "하이난"
+    },
+    {
+      masterLabel = "Haryana"
+      translation = "하리아나"
+    },
+    {
+      masterLabel = "Hawaii"
+      translation = "하와이"
+    },
+    {
+      masterLabel = "Hebei"
+      translation = "허베이"
+    },
+    {
+      masterLabel = "Heilongjiang"
+      translation = "헤이룽장"
+    },
+    {
+      masterLabel = "Henan"
+      translation = "허난"
+    },
+    {
+      masterLabel = "Hidalgo"
+      translation = "이달고"
+    },
+    {
+      masterLabel = "Himachal Pradesh"
+      translation = "히마찰 쁘라데시"
+    },
+    {
+      masterLabel = "Hiroshima"
+      translation = "히로시마"
+    },
+    {
+      masterLabel = "Hokkaido"
+      translation = "홋카이도"
+    },
+    {
+      masterLabel = "Hong Kong"
+      translation = "홍콩"
+    },
+    {
+      masterLabel = "Hubei"
+      translation = "후베이"
+    },
+    {
+      masterLabel = "Hunan"
+      translation = "후난"
+    },
+    {
+      masterLabel = "Hyogo"
+      translation = "효고"
+    },
+    {
+      masterLabel = "Ibaraki"
+      translation = "이바라키"
+    },
+    {
+      masterLabel = "Idaho"
+      translation = "아이다호"
+    },
+    {
+      masterLabel = "Illinois"
+      translation = "일리노이"
+    },
+    {
+      masterLabel = "Imperia"
+      translation = "임페리아"
+    },
+    {
+      masterLabel = "Indiana"
+      translation = "인디애나"
+    },
+    {
+      masterLabel = "Iowa"
+      translation = "아이오와"
+    },
+    {
+      masterLabel = "Isernia"
+      translation = "이세르니아"
+    },
+    {
+      masterLabel = "Ishikawa"
+      translation = "이시카와"
+    },
+    {
+      masterLabel = "Iwate"
+      translation = "이와테"
+    },
+    {
+      masterLabel = "Jalisco"
+      translation = "할리스코"
+    },
+    {
+      masterLabel = "Jammu and Kashmir"
+      translation = "잠무카슈미르"
+    },
+    {
+      masterLabel = "Jharkhand"
+      translation = "자르칸드"
+    },
+    {
+      masterLabel = "Jiangsu"
+      translation = "장쑤"
+    },
+    {
+      masterLabel = "Jiangxi"
+      translation = "장시"
+    },
+    {
+      masterLabel = "Jilin"
+      translation = "지린"
+    },
+    {
+      masterLabel = "Kagawa"
+      translation = "카가와"
+    },
+    {
+      masterLabel = "Kagoshima"
+      translation = "가고시마"
+    },
+    {
+      masterLabel = "Kanagawa"
+      translation = "가나가와"
+    },
+    {
+      masterLabel = "Kansas"
+      translation = "캔자스"
+    },
+    {
+      masterLabel = "Karnataka"
+      translation = "카나타카"
+    },
+    {
+      masterLabel = "Kentucky"
+      translation = "켄터키"
+    },
+    {
+      masterLabel = "Kerala"
+      translation = "케랄라"
+    },
+    {
+      masterLabel = "Kerry"
+      translation = "케리"
+    },
+    {
+      masterLabel = "Kildare"
+      translation = "킬데어"
+    },
+    {
+      masterLabel = "Kilkenny"
+      translation = "킬케니"
+    },
+    {
+      masterLabel = "Kochi"
+      translation = "고치"
+    },
+    {
+      masterLabel = "Kumamoto"
+      translation = "구마모토"
+    },
+    {
+      masterLabel = "Kyoto"
+      translation = "교토"
+    },
+    {
+      masterLabel = "L'Aquila"
+      translation = "라퀼라"
+    },
+    {
+      masterLabel = "La Spezia"
+      translation = "라스페치아"
+    },
+    {
+      masterLabel = "Lakshadweep"
+      translation = "략샤드위프"
+    },
+    {
+      masterLabel = "Laois"
+      translation = "라오이스"
+    },
+    {
+      masterLabel = "Latina"
+      translation = "라티나"
+    },
+    {
+      masterLabel = "Lecce"
+      translation = "레체"
+    },
+    {
+      masterLabel = "Lecco"
+      translation = "레코"
+    },
+    {
+      masterLabel = "Leitrim"
+      translation = "레이트림"
+    },
+    {
+      masterLabel = "Liaoning"
+      translation = "랴오닝"
+    },
+    {
+      masterLabel = "Limerick"
+      translation = "리머릭"
+    },
+    {
+      masterLabel = "Livorno"
+      translation = "리보르노"
+    },
+    {
+      masterLabel = "Lodi"
+      translation = "로디"
+    },
+    {
+      masterLabel = "Longford"
+      translation = "롱포드"
+    },
+    {
+      masterLabel = "Louisiana"
+      translation = "루이지애나"
+    },
+    {
+      masterLabel = "Louth"
+      translation = "로우쓰"
+    },
+    {
+      masterLabel = "Lucca"
+      translation = "룩카"
+    },
+    {
+      masterLabel = "Macao"
+      translation = "마카오"
+    },
+    {
+      masterLabel = "Macerata"
+      translation = "마체라타"
+    },
+    {
+      masterLabel = "Madhya Pradesh"
+      translation = "마드야 프라데쉬"
+    },
+    {
+      masterLabel = "Maharashtra"
+      translation = "마하라슈트라"
+    },
+    {
+      masterLabel = "Maine"
+      translation = "메인"
+    },
+    {
+      masterLabel = "Manipur"
+      translation = "마니푸르"
+    },
+    {
+      masterLabel = "Manitoba"
+      translation = "매니토바"
+    },
+    {
+      masterLabel = "Mantua"
+      translation = "만토바"
+    },
+    {
+      masterLabel = "Maranhão"
+      translation = "마라냥"
+    },
+    {
+      masterLabel = "Maryland"
+      translation = "메릴랜드"
+    },
+    {
+      masterLabel = "Massa and Carrara"
+      translation = "마사에카라라"
+    },
+    {
+      masterLabel = "Massachusetts"
+      translation = "매사추세츠"
+    },
+    {
+      masterLabel = "Matera"
+      translation = "마테라"
+    },
+    {
+      masterLabel = "Mato Grosso"
+      translation = "마토구로소"
+    },
+    {
+      masterLabel = "Mato Grosso do Sul"
+      translation = "마토구로소 도 술"
+    },
+    {
+      masterLabel = "Mayo"
+      translation = "마요"
+    },
+    {
+      masterLabel = "Meath"
+      translation = "미스"
+    },
+    {
+      masterLabel = "Medio Campidano"
+      translation = "메디오캄피다노"
+    },
+    {
+      masterLabel = "Meghalaya"
+      translation = "메갈라야"
+    },
+    {
+      masterLabel = "Messina"
+      translation = "메시나"
+    },
+    {
+      masterLabel = "Mexico State"
+      translation = "멕시코주"
+    },
+    {
+      masterLabel = "Michigan"
+      translation = "미시간"
+    },
+    {
+      masterLabel = "Michoacán"
+      translation = "미초아칸"
+    },
+    {
+      masterLabel = "Mie"
+      translation = "미에"
+    },
+    {
+      masterLabel = "Milan"
+      translation = "밀라노"
+    },
+    {
+      masterLabel = "Minas Gerais"
+      translation = "미나 제라이스"
+    },
+    {
+      masterLabel = "Minnesota"
+      translation = "미네소타"
+    },
+    {
+      masterLabel = "Mississippi"
+      translation = "미시시피"
+    },
+    {
+      masterLabel = "Missouri"
+      translation = "미주리"
+    },
+    {
+      masterLabel = "Miyagi"
+      translation = "미야기"
+    },
+    {
+      masterLabel = "Miyazaki"
+      translation = "미야자키"
+    },
+    {
+      masterLabel = "Mizoram"
+      translation = "미조람"
+    },
+    {
+      masterLabel = "Modena"
+      translation = "모데나"
+    },
+    {
+      masterLabel = "Monaghan"
+      translation = "모나한"
+    },
+    {
+      masterLabel = "Montana"
+      translation = "몬태나"
+    },
+    {
+      masterLabel = "Monza and Brianza"
+      translation = "몬차에브리안차"
+    },
+    {
+      masterLabel = "Morelos"
+      translation = "모렐로스"
+    },
+    {
+      masterLabel = "Nagaland"
+      translation = "나갈랜드"
+    },
+    {
+      masterLabel = "Nagano"
+      translation = "나가노"
+    },
+    {
+      masterLabel = "Nagasaki"
+      translation = "나가사키"
+    },
+    {
+      masterLabel = "Naples"
+      translation = "나폴리"
+    },
+    {
+      masterLabel = "Nara"
+      translation = "나라"
+    },
+    {
+      masterLabel = "Nayarit"
+      translation = "나야리트"
+    },
+    {
+      masterLabel = "Nebraska"
+      translation = "네브래스카"
+    },
+    {
+      masterLabel = "Nei Mongol"
+      translation = "내몽골자치구"
+    },
+    {
+      masterLabel = "Nevada"
+      translation = "네바다"
+    },
+    {
+      masterLabel = "New Brunswick"
+      translation = "뉴브런즈윅"
+    },
+    {
+      masterLabel = "New Hampshire"
+      translation = "뉴햄프셔"
+    },
+    {
+      masterLabel = "New Jersey"
+      translation = "뉴저지"
+    },
+    {
+      masterLabel = "New Mexico"
+      translation = "뉴멕시코"
+    },
+    {
+      masterLabel = "New South Wales"
+      translation = "뉴사우스웨일스 주"
+    },
+    {
+      masterLabel = "New York"
+      translation = "뉴욕"
+    },
+    {
+      masterLabel = "Newfoundland and Labrador"
+      translation = "뉴펀들랜드 래브라도"
+    },
+    {
+      masterLabel = "Niigata"
+      translation = "니가타"
+    },
+    {
+      masterLabel = "Ningxia"
+      translation = "닝샤"
+    },
+    {
+      masterLabel = "North Carolina"
+      translation = "노스캐롤라이나"
+    },
+    {
+      masterLabel = "North Dakota"
+      translation = "노스다코타"
+    },
+    {
+      masterLabel = "Northern Territory"
+      translation = "노던 주"
+    },
+    {
+      masterLabel = "Northwest Territories"
+      translation = "노스웨스트 준주"
+    },
+    {
+      masterLabel = "Nova Scotia"
+      translation = "노바스코샤"
+    },
+    {
+      masterLabel = "Novara"
+      translation = "노바라"
+    },
+    {
+      masterLabel = "Nuevo León"
+      translation = "누에보레온"
+    },
+    {
+      masterLabel = "Nunavut"
+      translation = "누나부트"
+    },
+    {
+      masterLabel = "Nuoro"
+      translation = "누오로"
+    },
+    {
+      masterLabel = "Oaxaca"
+      translation = "오악사카"
+    },
+    {
+      masterLabel = "Odisha"
+      translation = "오리사"
+    },
+    {
+      masterLabel = "Offaly"
+      translation = "오팔리"
+    },
+    {
+      masterLabel = "Ogliastra"
+      translation = "올리아스트라"
+    },
+    {
+      masterLabel = "Ohio"
+      translation = "오하이오"
+    },
+    {
+      masterLabel = "Oita"
+      translation = "오이타"
+    },
+    {
+      masterLabel = "Okayama"
+      translation = "오카야마"
+    },
+    {
+      masterLabel = "Okinawa"
+      translation = "오키나와"
+    },
+    {
+      masterLabel = "Oklahoma"
+      translation = "오클라호마"
+    },
+    {
+      masterLabel = "Olbia-Tempio"
+      translation = "올비아템피오"
+    },
+    {
+      masterLabel = "Ontario"
+      translation = "온타리오"
+    },
+    {
+      masterLabel = "Oregon"
+      translation = "오리건"
+    },
+    {
+      masterLabel = "Oristano"
+      translation = "오리스타노"
+    },
+    {
+      masterLabel = "Osaka"
+      translation = "오사카"
+    },
+    {
+      masterLabel = "Padua"
+      translation = "파두아"
+    },
+    {
+      masterLabel = "Palermo"
+      translation = "팔레르모"
+    },
+    {
+      masterLabel = "Paraná"
+      translation = "파라나"
+    },
+    {
+      masterLabel = "Paraíba"
+      translation = "파라이바"
+    },
+    {
+      masterLabel = "Parma"
+      translation = "파르마"
+    },
+    {
+      masterLabel = "Pará"
+      translation = "파라"
+    },
+    {
+      masterLabel = "Pavia"
+      translation = "파비아"
+    },
+    {
+      masterLabel = "Pennsylvania"
+      translation = "펜실베이니아"
+    },
+    {
+      masterLabel = "Pernambuco"
+      translation = "페르남부코"
+    },
+    {
+      masterLabel = "Perugia"
+      translation = "페루자"
+    },
+    {
+      masterLabel = "Pesaro and Urbino"
+      translation = "페사로 우르 비노"
+    },
+    {
+      masterLabel = "Pescara"
+      translation = "페스카라"
+    },
+    {
+      masterLabel = "Piacenza"
+      translation = "피아첸차"
+    },
+    {
+      masterLabel = "Piauí"
+      translation = "피아우이"
+    },
+    {
+      masterLabel = "Pisa"
+      translation = "피사"
+    },
+    {
+      masterLabel = "Pistoia"
+      translation = "피스토야"
+    },
+    {
+      masterLabel = "Pordenone"
+      translation = "포르데노네"
+    },
+    {
+      masterLabel = "Potenza"
+      translation = "포텐차"
+    },
+    {
+      masterLabel = "Prato"
+      translation = "프라토"
+    },
+    {
+      masterLabel = "Prince Edward Island"
+      translation = "프린스 에드워드 아일랜드"
+    },
+    {
+      masterLabel = "Puducherry"
+      translation = "폰디체리"
+    },
+    {
+      masterLabel = "Puebla"
+      translation = "푸에블라"
+    },
+    {
+      masterLabel = "Punjab"
+      translation = "펀자브"
+    },
+    {
+      masterLabel = "Qinghai"
+      translation = "칭하이"
+    },
+    {
+      masterLabel = "Quebec"
+      translation = "퀘벡"
+    },
+    {
+      masterLabel = "Queensland"
+      translation = "퀸즐랜드"
+    },
+    {
+      masterLabel = "Querétaro"
+      translation = "케레타로"
+    },
+    {
+      masterLabel = "Quintana Roo"
+      translation = "킨타나로오"
+    },
+    {
+      masterLabel = "Ragusa"
+      translation = "라구자"
+    },
+    {
+      masterLabel = "Rajasthan"
+      translation = "라자스탄"
+    },
+    {
+      masterLabel = "Ravenna"
+      translation = "라벤나"
+    },
+    {
+      masterLabel = "Reggio Calabria"
+      translation = "레지오 칼라브리아"
+    },
+    {
+      masterLabel = "Reggio Emilia"
+      translation = "레지오 에밀리아"
+    },
+    {
+      masterLabel = "Rhode Island"
+      translation = "로드아일랜드"
+    },
+    {
+      masterLabel = "Rieti"
+      translation = "리에티"
+    },
+    {
+      masterLabel = "Rimini"
+      translation = "리미니"
+    },
+    {
+      masterLabel = "Rio Grande do Norte"
+      translation = "히후 그란지 두 노르찌"
+    },
+    {
+      masterLabel = "Rio Grande do Sul"
+      translation = "히우 그란지 두 솔"
+    },
+    {
+      masterLabel = "Rio de Janeiro"
+      translation = "리오데자네이로"
+    },
+    {
+      masterLabel = "Rome"
+      translation = "로마"
+    },
+    {
+      masterLabel = "Rondônia"
+      translation = "혼도니아"
+    },
+    {
+      masterLabel = "Roraima"
+      translation = "호라이마"
+    },
+    {
+      masterLabel = "Roscommon"
+      translation = "로스코몬"
+    },
+    {
+      masterLabel = "Rovigo"
+      translation = "로비고"
+    },
+    {
+      masterLabel = "Saga"
+      translation = "사가"
+    },
+    {
+      masterLabel = "Saitama"
+      translation = "사이타마"
+    },
+    {
+      masterLabel = "Salerno"
+      translation = "살레르노"
+    },
+    {
+      masterLabel = "San Luis Potosí"
+      translation = "산루이스포토시"
+    },
+    {
+      masterLabel = "Santa Catarina"
+      translation = "산타 카타리나"
+    },
+    {
+      masterLabel = "Saskatchewan"
+      translation = "서스캐처원"
+    },
+    {
+      masterLabel = "Sassari"
+      translation = "삿사리"
+    },
+    {
+      masterLabel = "Savona"
+      translation = "사보나"
+    },
+    {
+      masterLabel = "Sergipe"
+      translation = "세르지뻬"
+    },
+    {
+      masterLabel = "Shaanxi"
+      translation = "섬서"
+    },
+    {
+      masterLabel = "Shandong"
+      translation = "산둥"
+    },
+    {
+      masterLabel = "Shanghai"
+      translation = "상하이"
+    },
+    {
+      masterLabel = "Shanxi"
+      translation = "산시"
+    },
+    {
+      masterLabel = "Shiga"
+      translation = "시가"
+    },
+    {
+      masterLabel = "Shimane"
+      translation = "시마네"
+    },
+    {
+      masterLabel = "Shizuoka"
+      translation = "시즈오카"
+    },
+    {
+      masterLabel = "Sichuan"
+      translation = "쓰촨"
+    },
+    {
+      masterLabel = "Siena"
+      translation = "시에나"
+    },
+    {
+      masterLabel = "Sikkim"
+      translation = "시킴"
+    },
+    {
+      masterLabel = "Sinaloa"
+      translation = "시날로아"
+    },
+    {
+      masterLabel = "Sligo"
+      translation = "슬라이고"
+    },
+    {
+      masterLabel = "Sondrio"
+      translation = "손드리오"
+    },
+    {
+      masterLabel = "Sonora"
+      translation = "소노라"
+    },
+    {
+      masterLabel = "South Australia"
+      translation = "사우스 오스트레일리아"
+    },
+    {
+      masterLabel = "South Carolina"
+      translation = "사우스캐롤라이나"
+    },
+    {
+      masterLabel = "South Dakota"
+      translation = "사우스다코타"
+    },
+    {
+      masterLabel = "Syracuse"
+      translation = "시러큐스"
+    },
+    {
+      masterLabel = "São Paulo"
+      translation = "상파울루"
+    },
+    {
+      masterLabel = "Tabasco"
+      translation = "타바스코"
+    },
+    {
+      masterLabel = "Taiwan"
+      translation = "대만"
+    },
+    {
+      masterLabel = "Tamaulipas"
+      translation = "타마울리파스"
+    },
+    {
+      masterLabel = "Tamil Nadu"
+      translation = "타밀나두"
+    },
+    {
+      masterLabel = "Taranto"
+      translation = "타란토"
+    },
+    {
+      masterLabel = "Tasmania"
+      translation = "태즈메이니아"
+    },
+    {
+      masterLabel = "Telangana"
+      translation = "텔랑가나"
+    },
+    {
+      masterLabel = "Tennessee"
+      translation = "테네시"
+    },
+    {
+      masterLabel = "Teramo"
+      translation = "테라모"
+    },
+    {
+      masterLabel = "Terni"
+      translation = "테르니"
+    },
+    {
+      masterLabel = "Texas"
+      translation = "텍사스"
+    },
+    {
+      masterLabel = "Tianjin"
+      translation = "톈진"
+    },
+    {
+      masterLabel = "Tipperary"
+      translation = "티퍼레리"
+    },
+    {
+      masterLabel = "Tlaxcala"
+      translation = "틀락스칼라"
+    },
+    {
+      masterLabel = "Tocantins"
+      translation = "토칸칭스"
+    },
+    {
+      masterLabel = "Tochigi"
+      translation = "도치기"
+    },
+    {
+      masterLabel = "Tokushima"
+      translation = "도쿠시마"
+    },
+    {
+      masterLabel = "Tokyo"
+      translation = "도쿄"
+    },
+    {
+      masterLabel = "Tottori"
+      translation = "도토리"
+    },
+    {
+      masterLabel = "Toyama"
+      translation = "도야마"
+    },
+    {
+      masterLabel = "Trapani"
+      translation = "트라파니"
+    },
+    {
+      masterLabel = "Trento"
+      translation = "트렌토"
+    },
+    {
+      masterLabel = "Treviso"
+      translation = "트레비조"
+    },
+    {
+      masterLabel = "Trieste"
+      translation = "트리에스테"
+    },
+    {
+      masterLabel = "Tripura"
+      translation = "트리풀라"
+    },
+    {
+      masterLabel = "Turin"
+      translation = "튜린"
+    },
+    {
+      masterLabel = "Udine"
+      translation = "우디네"
+    },
+    {
+      masterLabel = "Utah"
+      translation = "유타"
+    },
+    {
+      masterLabel = "Uttar Pradesh"
+      translation = "우타르프라데시"
+    },
+    {
+      masterLabel = "Uttarakhand"
+      translation = "우타라칸드"
+    },
+    {
+      masterLabel = "Varese"
+      translation = "바레세"
+    },
+    {
+      masterLabel = "Venice"
+      translation = "베니스"
+    },
+    {
+      masterLabel = "Veracruz"
+      translation = "베라크루스"
+    },
+    {
+      masterLabel = "Verbano-Cusio-Ossola"
+      translation = "베르바노쿠시오오솔라"
+    },
+    {
+      masterLabel = "Vercelli"
+      translation = "베르첼리"
+    },
+    {
+      masterLabel = "Vermont"
+      translation = "버몬트"
+    },
+    {
+      masterLabel = "Verona"
+      translation = "베로나"
+    },
+    {
+      masterLabel = "Vibo Valentia"
+      translation = "비보 발렌시아"
+    },
+    {
+      masterLabel = "Vicenza"
+      translation = "비첸차"
+    },
+    {
+      masterLabel = "Victoria"
+      translation = "빅토리아"
+    },
+    {
+      masterLabel = "Virginia"
+      translation = "버지니아"
+    },
+    {
+      masterLabel = "Viterbo"
+      translation = "비테르보"
+    },
+    {
+      masterLabel = "Wakayama"
+      translation = "와가야마"
+    },
+    {
+      masterLabel = "Washington"
+      translation = "워싱턴"
+    },
+    {
+      masterLabel = "Waterford"
+      translation = "워터포드"
+    },
+    {
+      masterLabel = "West Bengal"
+      translation = "서벵갈"
+    },
+    {
+      masterLabel = "West Virginia"
+      translation = "웨스트버지니아"
+    },
+    {
+      masterLabel = "Western Australia"
+      translation = "웨스턴 오스트레일리아"
+    },
+    {
+      masterLabel = "Westmeath"
+      translation = "웨스트미스"
+    },
+    {
+      masterLabel = "Wexford"
+      translation = "웩스퍼드"
+    },
+    {
+      masterLabel = "Wicklow"
+      translation = "위클로"
+    },
+    {
+      masterLabel = "Wisconsin"
+      translation = "위스콘신"
+    },
+    {
+      masterLabel = "Wyoming"
+      translation = "와이오밍"
+    },
+    {
+      masterLabel = "Xinjiang"
+      translation = "신장"
+    },
+    {
+      masterLabel = "Xizang"
+      translation = "시짱"
+    },
+    {
+      masterLabel = "Yamagata"
+      translation = "야마가타"
+    },
+    {
+      masterLabel = "Yamaguchi"
+      translation = "야마구치"
+    },
+    {
+      masterLabel = "Yamanashi"
+      translation = "야마나시"
+    },
+    {
+      masterLabel = "Yucatán"
+      translation = "유카탄 반도"
+    },
+    {
+      masterLabel = "Yukon Territories"
+      translation = "유콘 지역"
+    },
+    {
+      masterLabel = "Yunnan"
+      translation = "윈난"
+    },
+    {
+      masterLabel = "Zacatecas"
+      translation = "사카테카스"
+    },
+    {
+      masterLabel = "Zhejiang"
+      translation = "저장"
+    },
+  ]
+  fullName = "AddressStateCode-ko"
+  _alias = "AddressStateCode-ko"
+}

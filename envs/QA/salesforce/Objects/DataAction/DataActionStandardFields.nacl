@@ -1,0 +1,94 @@
+type salesforce.DataAction {
+  salesforce.Picklist ActionStatus {
+    apiName = "DataAction.ActionStatus"
+    label = "Status"
+    restricted = true
+  }
+  salesforce.Text Description {
+    apiName = "DataAction.Description"
+    label = "Data Action Description"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.DateTime LastActionStatusDateTime {
+    apiName = "DataAction.LastActionStatusDateTime"
+    label = "Last Data Action Status Date Time"
+  }
+  salesforce.Text Name {
+    apiName = "DataAction.Name"
+    label = "Data Action Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  serviceid Id {
+    apiName = "DataAction.Id"
+    label = "Data Action ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "DataAction.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "DataAction.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "DataAction.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "DataAction.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "DataAction.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "DataAction.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+  salesforce.Picklist LastActionStatusErrorCode {
+    apiName = "DataAction.LastActionStatusErrorCode"
+    label = "Last Data Action Status Error Code"
+    restricted = true
+  }
+  salesforce.Text ActionApiName {
+    apiName = "DataAction.ActionApiName"
+    label = "Data Action API Name"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Checkbox ShouldProcessDayZero {
+    apiName = "DataAction.ShouldProcessDayZero"
+    label = "Should Process Day Zero"
+    defaultValue = false
+  }
+  salesforce.Text AffiliationDmoDeveloperName {
+    apiName = "DataAction.AffiliationDmoDeveloperName"
+    label = "Affiliation Dmo Developer Name"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist ManagedBy {
+    apiName = "DataAction.ManagedBy"
+    label = "Managed By"
+    restricted = true
+  }
+}

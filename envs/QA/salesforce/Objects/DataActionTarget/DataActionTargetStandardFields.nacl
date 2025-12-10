@@ -1,0 +1,101 @@
+type salesforce.DataActionTarget {
+  salesforce.DateTime LastTargetStatusDateTime {
+    apiName = "DataActionTarget.LastTargetStatusDateTime"
+    label = "Last Data Action Target Status Date Time"
+  }
+  salesforce.Picklist LastTargetStatusErrorCode {
+    apiName = "DataActionTarget.LastTargetStatusErrorCode"
+    label = "Last Data Action Target Status Error Code"
+    restricted = true
+  }
+  salesforce.Text Name {
+    apiName = "DataActionTarget.Name"
+    label = "Data Action Target Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist TargetStatus {
+    apiName = "DataActionTarget.TargetStatus"
+    label = "Status"
+    restricted = true
+  }
+  serviceid Id {
+    apiName = "DataActionTarget.Id"
+    label = "Data Action Target ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "DataActionTarget.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "DataActionTarget.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "DataActionTarget.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "DataActionTarget.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "DataActionTarget.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "DataActionTarget.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "DataActionTarget.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastSigningKeyDateTime {
+    apiName = "DataActionTarget.LastSigningKeyDateTime"
+    label = "Last Signing Key Generated Date Time"
+  }
+  salesforce.Picklist TargetType {
+    apiName = "DataActionTarget.TargetType"
+    label = "Data Action Target Type"
+    restricted = true
+  }
+  salesforce.Url TargetEndpoint {
+    apiName = "DataActionTarget.TargetEndpoint"
+    label = "URL to Publish"
+  }
+  salesforce.Text TargetApiName {
+    apiName = "DataActionTarget.TargetApiName"
+    label = "Data Action Target API Name"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text ApiContract {
+    apiName = "DataActionTarget.ApiContract"
+    label = "Data Action Target API Contract"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist ManagedBy {
+    apiName = "DataActionTarget.ManagedBy"
+    label = "Managed By"
+    restricted = true
+  }
+}

@@ -1,0 +1,113 @@
+type salesforce.PaymentMethod {
+  salesforce.Lookup AccountId {
+    apiName = "PaymentMethod.AccountId"
+    label = "Account ID"
+    relationshipName = "Account"
+  }
+  salesforce.LongTextArea Comments {
+    apiName = "PaymentMethod.Comments"
+    label = "Comments"
+    length = 32000
+  }
+  salesforce.Text CompanyName {
+    apiName = "PaymentMethod.CompanyName"
+    label = "Company Name"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text NickName {
+    apiName = "PaymentMethod.NickName"
+    label = "Nickname"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text PaymentMethodDetails {
+    apiName = "PaymentMethod.PaymentMethodDetails"
+    label = "Payment Method Details"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text PaymentMethodSubType {
+    apiName = "PaymentMethod.PaymentMethodSubType"
+    label = "Payment Method Sub Type"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Picklist PaymentMethodType {
+    apiName = "PaymentMethod.PaymentMethodType"
+    label = "Payment Method Type"
+    restricted = true
+  }
+  salesforce.Picklist Status {
+    apiName = "PaymentMethod.Status"
+    label = "Status"
+    _required = true
+    restricted = true
+  }
+  serviceid Id {
+    apiName = "PaymentMethod.Id"
+    label = "Payment Method ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Text ImplementorType {
+    apiName = "PaymentMethod.ImplementorType"
+    label = "Implementor Type"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Checkbox IsAutoPayEnabled {
+    apiName = "PaymentMethod.IsAutoPayEnabled"
+    label = "Auto Pay"
+  }
+  salesforce.Address PaymentMethodAddress {
+    apiName = "PaymentMethod.PaymentMethodAddress"
+    label = "Payment Method Address"
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "PaymentMethod.CreatedById"
+    label = "User ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "PaymentMethod.CreatedDate"
+    label = "__MISSING LABEL__ PropertyFile - val CreatedDate not found in section udd_PaymentMethod"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "PaymentMethod.LastModifiedById"
+    label = "User ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "PaymentMethod.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "PaymentMethod.SystemModstamp"
+    label = "__MISSING LABEL__ PropertyFile - val SystemModstamp not found in section udd_PaymentMethod"
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "PaymentMethod.IsDeleted"
+    label = "__MISSING LABEL__ PropertyFile - val IsDeleted not found in section udd_PaymentMethod"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.Text Name {
+    apiName = "PaymentMethod.Name"
+    label = "Payment Method Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+}

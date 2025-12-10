@@ -1,0 +1,88 @@
+type salesforce.ActivationTargetPlatform {
+  salesforce.Text AccountNumber {
+    apiName = "ActivationTargetPlatform.AccountNumber"
+    label = "Activation Target Platform Account Number"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup ActivationPlatformId {
+    apiName = "ActivationTargetPlatform.ActivationPlatformId"
+  }
+  salesforce.Lookup ActivationTargetId {
+    apiName = "ActivationTargetPlatform.ActivationTargetId"
+    label = "Partner Profile ID"
+    _required = true
+    relationshipName = "ActivationTarget"
+  }
+  salesforce.Lookup ActivationTgtPlatformDefId {
+    apiName = "ActivationTargetPlatform.ActivationTgtPlatformDefId"
+  }
+  salesforce.Text Connection {
+    apiName = "ActivationTargetPlatform.Connection"
+    label = "Connection"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text ManagerAccountNumber {
+    apiName = "ActivationTargetPlatform.ManagerAccountNumber"
+    label = "Activation Target Platform Manager Account Number"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text Name {
+    apiName = "ActivationTargetPlatform.Name"
+    label = "Activation Target Platform Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "ActivationTargetPlatform.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  serviceid Id {
+    apiName = "ActivationTargetPlatform.Id"
+    label = "Activation Target Platform ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "ActivationTargetPlatform.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "ActivationTargetPlatform.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "ActivationTargetPlatform.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "ActivationTargetPlatform.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "ActivationTargetPlatform.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "ActivationTargetPlatform.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

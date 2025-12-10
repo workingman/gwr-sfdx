@@ -1,0 +1,92 @@
+type salesforce.AiJobRunItem {
+  serviceid Id {
+    apiName = "AiJobRunItem.Id"
+    label = "AI Job Run Item ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "AiJobRunItem.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "AiJobRunItem.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.AutoNumber Name {
+    apiName = "AiJobRunItem.Name"
+    label = "Name"
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "AiJobRunItem.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "AiJobRunItem.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "AiJobRunItem.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "AiJobRunItem.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "AiJobRunItem.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+  salesforce.Lookup AiJobRunId {
+    apiName = "AiJobRunItem.AiJobRunId"
+    label = "AI Job Run ID"
+    _required = true
+    relationshipName = "AiJobRun"
+  }
+  salesforce.LongTextArea Input {
+    apiName = "AiJobRunItem.Input"
+    label = "Input"
+    length = 131072
+  }
+  salesforce.LongTextArea PreprocessedInput {
+    apiName = "AiJobRunItem.PreprocessedInput"
+    label = "Preprocessed Input"
+    length = 131072
+  }
+  salesforce.LongTextArea Response {
+    apiName = "AiJobRunItem.Response"
+    label = "Response"
+    length = 131072
+  }
+  salesforce.Picklist Status {
+    apiName = "AiJobRunItem.Status"
+    label = "Status"
+    _required = true
+  }
+  salesforce.Text ErrorCode {
+    apiName = "AiJobRunItem.ErrorCode"
+    label = "Error Code"
+    length = 40
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text ErrorMessage {
+    apiName = "AiJobRunItem.ErrorMessage"
+    label = "Error Message"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+}

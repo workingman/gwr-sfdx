@@ -1,0 +1,194 @@
+type salesforce.FlowOrchestrationVersion {
+  annotations {
+    serviceid apiName {
+    }
+    serviceid metadataType {
+    }
+    string label {
+    }
+    string description {
+    }
+    hidden_string keyPrefix {
+    }
+    salesforce.ActionOverride actionOverrides {
+    }
+    string compactLayoutAssignment {
+    }
+    boolean enableDataTranslation {
+    }
+    boolean enableDivisions {
+    }
+    boolean enableEnhancedLookup {
+    }
+    boolean enableFeeds {
+    }
+    boolean enableHistory {
+    }
+    boolean enableLicensing {
+    }
+    boolean enablePublishStatusTracking {
+    }
+    string externalDataSource {
+    }
+    string externalName {
+    }
+    string externalRepository {
+    }
+    salesforce.HistoryRetentionPolicy historyRetentionPolicy {
+    }
+    salesforce.MktDataLakeAttributes mktDataLakeAttributes {
+    }
+    salesforce.MktDataModelAttributes mktDataModelAttributes {
+    }
+    salesforce.ProfileSearchLayouts profileSearchLayouts {
+    }
+    boolean recordTypeTrackFeedHistory {
+    }
+    boolean recordTypeTrackHistory {
+    }
+    salesforce.SearchLayouts searchLayouts {
+    }
+    salesforce.SharingRecalculation sharingRecalculations {
+    }
+    string externalSharingModel {
+    }
+    hidden_string internalId {
+    }
+  }
+  apiName = "FlowOrchestrationVersion"
+  metadataType = "CustomObject"
+  label = "Orchestration Version"
+  description = ""
+  actionOverrides = [
+    {
+      actionName = "CancelEdit"
+      type = "Default"
+    },
+    {
+      actionName = "CancelEdit"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "CancelEdit"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
+      actionName = "DeleteOrchestrationVersion"
+      type = "Default"
+    },
+    {
+      actionName = "DeleteOrchestrationVersion"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "DeleteOrchestrationVersion"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
+      actionName = "List"
+      type = "Default"
+    },
+    {
+      actionName = "List"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "List"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
+      actionName = "OpenOrchestrationVersion"
+      type = "Default"
+    },
+    {
+      actionName = "OpenOrchestrationVersion"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "OpenOrchestrationVersion"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
+      actionName = "SaveEdit"
+      type = "Default"
+    },
+    {
+      actionName = "SaveEdit"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "SaveEdit"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
+      actionName = "Tab"
+      type = "Default"
+    },
+    {
+      actionName = "Tab"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "Tab"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
+      actionName = "ToggleOrchestrationVersionStatus"
+      type = "Default"
+    },
+    {
+      actionName = "ToggleOrchestrationVersionStatus"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "ToggleOrchestrationVersionStatus"
+      formFactor = "Small"
+      type = "Default"
+    },
+    {
+      actionName = "View"
+      type = "Default"
+    },
+    {
+      actionName = "View"
+      formFactor = "Large"
+      type = "Default"
+    },
+    {
+      actionName = "View"
+      formFactor = "Small"
+      type = "Default"
+    },
+  ]
+  compactLayoutAssignment = "SYSTEM"
+  enableFeeds = false
+  externalSharingModel = "ControlledByParent"
+  searchLayouts = {
+    customTabListAdditionalFields = [
+      "VersionNumber",
+      "Status",
+      "FlowOrchestration",
+      "OrchestrationType",
+    ]
+    searchResultsAdditionalFields = [
+      "VersionNumber",
+      "Status",
+      "FlowOrchestration",
+      "OrchestrationType",
+    ]
+  }
+  _alias = "Orchestration Version"
+}

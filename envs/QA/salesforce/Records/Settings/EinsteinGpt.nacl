@@ -1,0 +1,10 @@
+salesforce.EinsteinGptSettings {
+  disableAIProviderRegionFallback = false
+  enableEinsteinGPTDeployPromptTemplatesAsActive = false
+  enableEinsteinGptAllowUnsafePTInputChanges = false
+  enableEinsteinGptGlobalLangSupport = false
+  enableEinsteinGptPlatform = false
+  enableEnhancedPromptSecurity = false
+  fullName = "EinsteinGpt"
+  _alias = "EinsteinGpt"
+}

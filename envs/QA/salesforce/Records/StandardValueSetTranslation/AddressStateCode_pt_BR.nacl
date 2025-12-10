@@ -1,0 +1,1542 @@
+salesforce.StandardValueSetTranslation AddressStateCode_pt_BR@bu {
+  valueTranslation = [
+    {
+      masterLabel = "Acre"
+      translation = "Acre"
+    },
+    {
+      masterLabel = "Agrigento"
+      translation = "Agrigento"
+    },
+    {
+      masterLabel = "Aguascalientes"
+      translation = "Aguascalientes"
+    },
+    {
+      masterLabel = "Aichi"
+      translation = "Aichi"
+    },
+    {
+      masterLabel = "Akita"
+      translation = "Akita"
+    },
+    {
+      masterLabel = "Alabama"
+      translation = "Alabama"
+    },
+    {
+      masterLabel = "Alagoas"
+      translation = "Alagoas"
+    },
+    {
+      masterLabel = "Alaska"
+      translation = "Alaska"
+    },
+    {
+      masterLabel = "Alberta"
+      translation = "Alberta"
+    },
+    {
+      masterLabel = "Alessandria"
+      translation = "Alessandria"
+    },
+    {
+      masterLabel = "Amapá"
+      translation = "Amapá"
+    },
+    {
+      masterLabel = "Amazonas"
+      translation = "Amazonas"
+    },
+    {
+      masterLabel = "Ancona"
+      translation = "Ancona"
+    },
+    {
+      masterLabel = "Andaman and Nicobar Islands"
+      translation = "Ilhas de Andamã e Nicobar"
+    },
+    {
+      masterLabel = "Andhra Pradesh"
+      translation = "Andhra Pradesh"
+    },
+    {
+      masterLabel = "Anhui"
+      translation = "Anhui"
+    },
+    {
+      masterLabel = "Aomori"
+      translation = "Aomori"
+    },
+    {
+      masterLabel = "Aosta"
+      translation = "Aosta"
+    },
+    {
+      masterLabel = "Arezzo"
+      translation = "Arezzo"
+    },
+    {
+      masterLabel = "Arizona"
+      translation = "Arizona"
+    },
+    {
+      masterLabel = "Arkansas"
+      translation = "Arkansas"
+    },
+    {
+      masterLabel = "Arunachal Pradesh"
+      translation = "Arunachal Pradesh"
+    },
+    {
+      masterLabel = "Ascoli Piceno"
+      translation = "Ascoli Piceno"
+    },
+    {
+      masterLabel = "Assam"
+      translation = "Assam"
+    },
+    {
+      masterLabel = "Asti"
+      translation = "Asti"
+    },
+    {
+      masterLabel = "Australian Capital Territory"
+      translation = "Território da capital australiana"
+    },
+    {
+      masterLabel = "Avellino"
+      translation = "Avellino"
+    },
+    {
+      masterLabel = "Bahia"
+      translation = "Bahia"
+    },
+    {
+      masterLabel = "Baja California"
+      translation = "Baixa Califórnia"
+    },
+    {
+      masterLabel = "Baja California Sur"
+      translation = "Baixa Califórnia do Sul"
+    },
+    {
+      masterLabel = "Bari"
+      translation = "Bari"
+    },
+    {
+      masterLabel = "Barletta-Andria-Trani"
+      translation = "Barletta-Andria-Trani"
+    },
+    {
+      masterLabel = "Beijing"
+      translation = "Pequim"
+    },
+    {
+      masterLabel = "Belluno"
+      translation = "Belluno"
+    },
+    {
+      masterLabel = "Benevento"
+      translation = "Benevento"
+    },
+    {
+      masterLabel = "Bergamo"
+      translation = "Bérgamo"
+    },
+    {
+      masterLabel = "Biella"
+      translation = "Biella"
+    },
+    {
+      masterLabel = "Bihar"
+      translation = "Bihar"
+    },
+    {
+      masterLabel = "Bologna"
+      translation = "Bolonha"
+    },
+    {
+      masterLabel = "Bolzano"
+      translation = "Bolzano"
+    },
+    {
+      masterLabel = "Brescia"
+      translation = "Bréscia"
+    },
+    {
+      masterLabel = "Brindisi"
+      translation = "Brindisi"
+    },
+    {
+      masterLabel = "British Columbia"
+      translation = "Colúmbia Britânica"
+    },
+    {
+      masterLabel = "Cagliari"
+      translation = "Cagliari"
+    },
+    {
+      masterLabel = "California"
+      translation = "Califórnia"
+    },
+    {
+      masterLabel = "Caltanissetta"
+      translation = "Caltanissetta"
+    },
+    {
+      masterLabel = "Campeche"
+      translation = "Campeche"
+    },
+    {
+      masterLabel = "Campobasso"
+      translation = "Campobasso"
+    },
+    {
+      masterLabel = "Carbonia-Iglesias"
+      translation = "Carbonia-Iglesias"
+    },
+    {
+      masterLabel = "Carlow"
+      translation = "Carlow"
+    },
+    {
+      masterLabel = "Caserta"
+      translation = "Caserta"
+    },
+    {
+      masterLabel = "Catania"
+      translation = "Catânia"
+    },
+    {
+      masterLabel = "Catanzaro"
+      translation = "Catanzaro"
+    },
+    {
+      masterLabel = "Cavan"
+      translation = "Cavan"
+    },
+    {
+      masterLabel = "Ceará"
+      translation = "Ceará"
+    },
+    {
+      masterLabel = "Chandigarh"
+      translation = "Chandigarh"
+    },
+    {
+      masterLabel = "Chhattisgarh"
+      translation = "Chhattisgarh"
+    },
+    {
+      masterLabel = "Chiapas"
+      translation = "Chiapas"
+    },
+    {
+      masterLabel = "Chiba"
+      translation = "Chiba"
+    },
+    {
+      masterLabel = "Chieti"
+      translation = "Chieti"
+    },
+    {
+      masterLabel = "Chihuahua"
+      translation = "Chihuahua"
+    },
+    {
+      masterLabel = "Chongqing"
+      translation = "Chongqing"
+    },
+    {
+      masterLabel = "Clare"
+      translation = "Clare"
+    },
+    {
+      masterLabel = "Coahuila"
+      translation = "Coahuila"
+    },
+    {
+      masterLabel = "Colima"
+      translation = "Colima"
+    },
+    {
+      masterLabel = "Colorado"
+      translation = "Colorado"
+    },
+    {
+      masterLabel = "Como"
+      translation = "Como"
+    },
+    {
+      masterLabel = "Connecticut"
+      translation = "Connecticut"
+    },
+    {
+      masterLabel = "Cork"
+      translation = "Cork"
+    },
+    {
+      masterLabel = "Cosenza"
+      translation = "Cosença"
+    },
+    {
+      masterLabel = "Cremona"
+      translation = "Cremona"
+    },
+    {
+      masterLabel = "Crotone"
+      translation = "Crotone"
+    },
+    {
+      masterLabel = "Cuneo"
+      translation = "Cuneo"
+    },
+    {
+      masterLabel = "Dadra and Nagar Haveli"
+      translation = "Dadrá e Nagar Haveli"
+    },
+    {
+      masterLabel = "Daman and Diu"
+      translation = "Damão e Diu"
+    },
+    {
+      masterLabel = "Delaware"
+      translation = "Delaware"
+    },
+    {
+      masterLabel = "Delhi"
+      translation = "Delhi"
+    },
+    {
+      masterLabel = "District of Columbia"
+      translation = "Distrito de Columbia"
+    },
+    {
+      masterLabel = "Distrito Federal"
+      translation = "Distrito Federal"
+    },
+    {
+      masterLabel = "Donegal"
+      translation = "Donegal"
+    },
+    {
+      masterLabel = "Dublin"
+      translation = "Dublin"
+    },
+    {
+      masterLabel = "Durango"
+      translation = "Durango"
+    },
+    {
+      masterLabel = "Ehime"
+      translation = "Ehime"
+    },
+    {
+      masterLabel = "Enna"
+      translation = "Enna"
+    },
+    {
+      masterLabel = "Espírito Santo"
+      translation = "Espírito Santo"
+    },
+    {
+      masterLabel = "Federal District"
+      translation = "Distrito Federal"
+    },
+    {
+      masterLabel = "Fermo"
+      translation = "Fermo"
+    },
+    {
+      masterLabel = "Ferrara"
+      translation = "Ferrara"
+    },
+    {
+      masterLabel = "Florence"
+      translation = "Florença"
+    },
+    {
+      masterLabel = "Florida"
+      translation = "Florida"
+    },
+    {
+      masterLabel = "Foggia"
+      translation = "Foggia"
+    },
+    {
+      masterLabel = "Forlì-Cesena"
+      translation = "Forlì-Cesena"
+    },
+    {
+      masterLabel = "Frosinone"
+      translation = "Frosinone"
+    },
+    {
+      masterLabel = "Fujian"
+      translation = "Fujian"
+    },
+    {
+      masterLabel = "Fukui"
+      translation = "Fukui"
+    },
+    {
+      masterLabel = "Fukuoka"
+      translation = "Fukuoka"
+    },
+    {
+      masterLabel = "Fukushima"
+      translation = "Fukushima"
+    },
+    {
+      masterLabel = "Galway"
+      translation = "Galway"
+    },
+    {
+      masterLabel = "Gansu"
+      translation = "Gansu"
+    },
+    {
+      masterLabel = "Genoa"
+      translation = "Gênova"
+    },
+    {
+      masterLabel = "Georgia"
+      translation = "Geórgia"
+    },
+    {
+      masterLabel = "Gifu"
+      translation = "Gifu"
+    },
+    {
+      masterLabel = "Goa"
+      translation = "Goa"
+    },
+    {
+      masterLabel = "Goiás"
+      translation = "Goiás"
+    },
+    {
+      masterLabel = "Gorizia"
+      translation = "Gorizia"
+    },
+    {
+      masterLabel = "Grosseto"
+      translation = "Grosseto"
+    },
+    {
+      masterLabel = "Guanajuato"
+      translation = "Guanajuato"
+    },
+    {
+      masterLabel = "Guangdong"
+      translation = "Guangdong"
+    },
+    {
+      masterLabel = "Guangxi"
+      translation = "Guangxi"
+    },
+    {
+      masterLabel = "Guerrero"
+      translation = "Guerrero"
+    },
+    {
+      masterLabel = "Guizhou"
+      translation = "Guizhou"
+    },
+    {
+      masterLabel = "Gujarat"
+      translation = "Gujarat"
+    },
+    {
+      masterLabel = "Gunma"
+      translation = "Gunma"
+    },
+    {
+      masterLabel = "Hainan"
+      translation = "Hainan"
+    },
+    {
+      masterLabel = "Haryana"
+      translation = "Haryana"
+    },
+    {
+      masterLabel = "Hawaii"
+      translation = "Hawaii"
+    },
+    {
+      masterLabel = "Hebei"
+      translation = "Hebei"
+    },
+    {
+      masterLabel = "Heilongjiang"
+      translation = "Heilongjiang"
+    },
+    {
+      masterLabel = "Henan"
+      translation = "Henan"
+    },
+    {
+      masterLabel = "Hidalgo"
+      translation = "Hidalgo"
+    },
+    {
+      masterLabel = "Himachal Pradesh"
+      translation = "Himachal Pradesh"
+    },
+    {
+      masterLabel = "Hiroshima"
+      translation = "Hiroshima"
+    },
+    {
+      masterLabel = "Hokkaido"
+      translation = "Hokkaido"
+    },
+    {
+      masterLabel = "Hong Kong"
+      translation = "Hong Kong"
+    },
+    {
+      masterLabel = "Hubei"
+      translation = "Hubei"
+    },
+    {
+      masterLabel = "Hunan"
+      translation = "Hunan"
+    },
+    {
+      masterLabel = "Hyogo"
+      translation = "Hyogo"
+    },
+    {
+      masterLabel = "Ibaraki"
+      translation = "Ibaraki"
+    },
+    {
+      masterLabel = "Idaho"
+      translation = "Idaho"
+    },
+    {
+      masterLabel = "Illinois"
+      translation = "Illinois"
+    },
+    {
+      masterLabel = "Imperia"
+      translation = "Impéria"
+    },
+    {
+      masterLabel = "Indiana"
+      translation = "Indiana"
+    },
+    {
+      masterLabel = "Iowa"
+      translation = "Iowa"
+    },
+    {
+      masterLabel = "Isernia"
+      translation = "Isérnia"
+    },
+    {
+      masterLabel = "Ishikawa"
+      translation = "Ishikawa"
+    },
+    {
+      masterLabel = "Iwate"
+      translation = "Iwate"
+    },
+    {
+      masterLabel = "Jalisco"
+      translation = "Jalisco"
+    },
+    {
+      masterLabel = "Jammu and Kashmir"
+      translation = "Jamu e Caxemira"
+    },
+    {
+      masterLabel = "Jharkhand"
+      translation = "Jharkhand"
+    },
+    {
+      masterLabel = "Jiangsu"
+      translation = "Jiangsu"
+    },
+    {
+      masterLabel = "Jiangxi"
+      translation = "Jiangxi"
+    },
+    {
+      masterLabel = "Jilin"
+      translation = "Jilin"
+    },
+    {
+      masterLabel = "Kagawa"
+      translation = "Kagawa"
+    },
+    {
+      masterLabel = "Kagoshima"
+      translation = "Kagoshima"
+    },
+    {
+      masterLabel = "Kanagawa"
+      translation = "Kanagawa"
+    },
+    {
+      masterLabel = "Kansas"
+      translation = "Kansas"
+    },
+    {
+      masterLabel = "Karnataka"
+      translation = "Karnataka"
+    },
+    {
+      masterLabel = "Kentucky"
+      translation = "Kentucky"
+    },
+    {
+      masterLabel = "Kerala"
+      translation = "Kerala"
+    },
+    {
+      masterLabel = "Kerry"
+      translation = "Kerry"
+    },
+    {
+      masterLabel = "Kildare"
+      translation = "Kildare"
+    },
+    {
+      masterLabel = "Kilkenny"
+      translation = "Kilkenny"
+    },
+    {
+      masterLabel = "Kochi"
+      translation = "Kochi"
+    },
+    {
+      masterLabel = "Kumamoto"
+      translation = "Kumamoto"
+    },
+    {
+      masterLabel = "Kyoto"
+      translation = "Quioto"
+    },
+    {
+      masterLabel = "L'Aquila"
+      translation = "Áquila"
+    },
+    {
+      masterLabel = "La Spezia"
+      translation = "La Spezia"
+    },
+    {
+      masterLabel = "Lakshadweep"
+      translation = "Laquedivas"
+    },
+    {
+      masterLabel = "Laois"
+      translation = "Laois"
+    },
+    {
+      masterLabel = "Latina"
+      translation = "Latina"
+    },
+    {
+      masterLabel = "Lecce"
+      translation = "Lecce"
+    },
+    {
+      masterLabel = "Lecco"
+      translation = "Lecco"
+    },
+    {
+      masterLabel = "Leitrim"
+      translation = "Leitrim"
+    },
+    {
+      masterLabel = "Liaoning"
+      translation = "Liaoning"
+    },
+    {
+      masterLabel = "Limerick"
+      translation = "Limerick"
+    },
+    {
+      masterLabel = "Livorno"
+      translation = "Livorno"
+    },
+    {
+      masterLabel = "Lodi"
+      translation = "Lodi"
+    },
+    {
+      masterLabel = "Longford"
+      translation = "Longford"
+    },
+    {
+      masterLabel = "Louisiana"
+      translation = "Louisiana"
+    },
+    {
+      masterLabel = "Louth"
+      translation = "Louth"
+    },
+    {
+      masterLabel = "Lucca"
+      translation = "Luca"
+    },
+    {
+      masterLabel = "Macao"
+      translation = "Macau"
+    },
+    {
+      masterLabel = "Macerata"
+      translation = "Macerata"
+    },
+    {
+      masterLabel = "Madhya Pradesh"
+      translation = "Madhya Pradesh"
+    },
+    {
+      masterLabel = "Maharashtra"
+      translation = "Maharashtra"
+    },
+    {
+      masterLabel = "Maine"
+      translation = "Maine"
+    },
+    {
+      masterLabel = "Manipur"
+      translation = "Manipur"
+    },
+    {
+      masterLabel = "Manitoba"
+      translation = "Manitoba"
+    },
+    {
+      masterLabel = "Mantua"
+      translation = "Mântua"
+    },
+    {
+      masterLabel = "Maranhão"
+      translation = "Maranhão"
+    },
+    {
+      masterLabel = "Maryland"
+      translation = "Maryland"
+    },
+    {
+      masterLabel = "Massa and Carrara"
+      translation = "Massa-Carrara"
+    },
+    {
+      masterLabel = "Massachusetts"
+      translation = "Massachusetts"
+    },
+    {
+      masterLabel = "Matera"
+      translation = "Matera"
+    },
+    {
+      masterLabel = "Mato Grosso"
+      translation = "Mato Grosso"
+    },
+    {
+      masterLabel = "Mato Grosso do Sul"
+      translation = "Mato Grosso do Sul"
+    },
+    {
+      masterLabel = "Mayo"
+      translation = "Mayo"
+    },
+    {
+      masterLabel = "Meath"
+      translation = "Meath"
+    },
+    {
+      masterLabel = "Medio Campidano"
+      translation = "Medio Campidano"
+    },
+    {
+      masterLabel = "Meghalaya"
+      translation = "Meghalaya"
+    },
+    {
+      masterLabel = "Messina"
+      translation = "Messina"
+    },
+    {
+      masterLabel = "Mexico State"
+      translation = "Estado do México"
+    },
+    {
+      masterLabel = "Michigan"
+      translation = "Michigan"
+    },
+    {
+      masterLabel = "Michoacán"
+      translation = "Michoacán"
+    },
+    {
+      masterLabel = "Mie"
+      translation = "Mie"
+    },
+    {
+      masterLabel = "Milan"
+      translation = "Milão"
+    },
+    {
+      masterLabel = "Minas Gerais"
+      translation = "Minas Gerais"
+    },
+    {
+      masterLabel = "Minnesota"
+      translation = "Minnesota"
+    },
+    {
+      masterLabel = "Mississippi"
+      translation = "Mississippi"
+    },
+    {
+      masterLabel = "Missouri"
+      translation = "Missouri"
+    },
+    {
+      masterLabel = "Miyagi"
+      translation = "Miyagi"
+    },
+    {
+      masterLabel = "Miyazaki"
+      translation = "Miyazaki"
+    },
+    {
+      masterLabel = "Mizoram"
+      translation = "Mizoram"
+    },
+    {
+      masterLabel = "Modena"
+      translation = "Modena"
+    },
+    {
+      masterLabel = "Monaghan"
+      translation = "Monaghan"
+    },
+    {
+      masterLabel = "Montana"
+      translation = "Montana"
+    },
+    {
+      masterLabel = "Monza and Brianza"
+      translation = "Monza e Brianza"
+    },
+    {
+      masterLabel = "Morelos"
+      translation = "Morelos"
+    },
+    {
+      masterLabel = "Nagaland"
+      translation = "Nagaland"
+    },
+    {
+      masterLabel = "Nagano"
+      translation = "Nagano"
+    },
+    {
+      masterLabel = "Nagasaki"
+      translation = "Nagasaki"
+    },
+    {
+      masterLabel = "Naples"
+      translation = "Nápoles"
+    },
+    {
+      masterLabel = "Nara"
+      translation = "Nara"
+    },
+    {
+      masterLabel = "Nayarit"
+      translation = "Nayarit"
+    },
+    {
+      masterLabel = "Nebraska"
+      translation = "Nebraska"
+    },
+    {
+      masterLabel = "Nei Mongol"
+      translation = "Mongólia Interior"
+    },
+    {
+      masterLabel = "Nevada"
+      translation = "Nevada"
+    },
+    {
+      masterLabel = "New Brunswick"
+      translation = "Nova Brunswick"
+    },
+    {
+      masterLabel = "New Hampshire"
+      translation = "New Hampshire"
+    },
+    {
+      masterLabel = "New Jersey"
+      translation = "Nova Jersey"
+    },
+    {
+      masterLabel = "New Mexico"
+      translation = "Novo México"
+    },
+    {
+      masterLabel = "New South Wales"
+      translation = "Nova Gales do Sul"
+    },
+    {
+      masterLabel = "New York"
+      translation = "Nova York"
+    },
+    {
+      masterLabel = "Newfoundland and Labrador"
+      translation = "Terra Nova e Labrador"
+    },
+    {
+      masterLabel = "Niigata"
+      translation = "Niigata"
+    },
+    {
+      masterLabel = "Ningxia"
+      translation = "Ningxia"
+    },
+    {
+      masterLabel = "North Carolina"
+      translation = "Carolina do Norte"
+    },
+    {
+      masterLabel = "North Dakota"
+      translation = "Dakota do Norte"
+    },
+    {
+      masterLabel = "Northern Territory"
+      translation = "Território do Norte"
+    },
+    {
+      masterLabel = "Northwest Territories"
+      translation = "Territórios do Noroeste"
+    },
+    {
+      masterLabel = "Nova Scotia"
+      translation = "Nova Escócia"
+    },
+    {
+      masterLabel = "Novara"
+      translation = "Novara"
+    },
+    {
+      masterLabel = "Nuevo León"
+      translation = "Nuevo León"
+    },
+    {
+      masterLabel = "Nunavut"
+      translation = "Nunavut"
+    },
+    {
+      masterLabel = "Nuoro"
+      translation = "Núoro"
+    },
+    {
+      masterLabel = "Oaxaca"
+      translation = "Oaxaca"
+    },
+    {
+      masterLabel = "Odisha"
+      translation = "Orissa"
+    },
+    {
+      masterLabel = "Offaly"
+      translation = "Offaly"
+    },
+    {
+      masterLabel = "Ogliastra"
+      translation = "Ogliastra"
+    },
+    {
+      masterLabel = "Ohio"
+      translation = "Ohio"
+    },
+    {
+      masterLabel = "Oita"
+      translation = "Oita"
+    },
+    {
+      masterLabel = "Okayama"
+      translation = "Okayama"
+    },
+    {
+      masterLabel = "Okinawa"
+      translation = "Okinawa"
+    },
+    {
+      masterLabel = "Oklahoma"
+      translation = "Oklahoma"
+    },
+    {
+      masterLabel = "Olbia-Tempio"
+      translation = "Ólbia-Tempio"
+    },
+    {
+      masterLabel = "Ontario"
+      translation = "Ontário"
+    },
+    {
+      masterLabel = "Oregon"
+      translation = "Oregon"
+    },
+    {
+      masterLabel = "Oristano"
+      translation = "Oristano"
+    },
+    {
+      masterLabel = "Osaka"
+      translation = "Osaka"
+    },
+    {
+      masterLabel = "Padua"
+      translation = "Pádua"
+    },
+    {
+      masterLabel = "Palermo"
+      translation = "Palermo"
+    },
+    {
+      masterLabel = "Paraná"
+      translation = "Paraná"
+    },
+    {
+      masterLabel = "Paraíba"
+      translation = "Paraíba"
+    },
+    {
+      masterLabel = "Parma"
+      translation = "Parma"
+    },
+    {
+      masterLabel = "Pará"
+      translation = "Pará"
+    },
+    {
+      masterLabel = "Pavia"
+      translation = "Pavia"
+    },
+    {
+      masterLabel = "Pennsylvania"
+      translation = "Pensilvânia"
+    },
+    {
+      masterLabel = "Pernambuco"
+      translation = "Pernambuco"
+    },
+    {
+      masterLabel = "Perugia"
+      translation = "Perúgia"
+    },
+    {
+      masterLabel = "Pesaro and Urbino"
+      translation = "Pésaro e Urbino"
+    },
+    {
+      masterLabel = "Pescara"
+      translation = "Pescara"
+    },
+    {
+      masterLabel = "Piacenza"
+      translation = "Placência"
+    },
+    {
+      masterLabel = "Piauí"
+      translation = "Piauí"
+    },
+    {
+      masterLabel = "Pisa"
+      translation = "Pisa"
+    },
+    {
+      masterLabel = "Pistoia"
+      translation = "Pistoia"
+    },
+    {
+      masterLabel = "Pordenone"
+      translation = "Pordenone"
+    },
+    {
+      masterLabel = "Potenza"
+      translation = "Potenza"
+    },
+    {
+      masterLabel = "Prato"
+      translation = "Prato"
+    },
+    {
+      masterLabel = "Prince Edward Island"
+      translation = "Ilha do Príncipe Eduardo"
+    },
+    {
+      masterLabel = "Puducherry"
+      translation = "Puducherry"
+    },
+    {
+      masterLabel = "Puebla"
+      translation = "Puebla"
+    },
+    {
+      masterLabel = "Punjab"
+      translation = "Punjab"
+    },
+    {
+      masterLabel = "Qinghai"
+      translation = "Qinghai"
+    },
+    {
+      masterLabel = "Quebec"
+      translation = "Quebec"
+    },
+    {
+      masterLabel = "Queensland"
+      translation = "Queensland"
+    },
+    {
+      masterLabel = "Querétaro"
+      translation = "Querétaro"
+    },
+    {
+      masterLabel = "Quintana Roo"
+      translation = "Quintana Roo"
+    },
+    {
+      masterLabel = "Ragusa"
+      translation = "Ragusa"
+    },
+    {
+      masterLabel = "Rajasthan"
+      translation = "Rajasthan"
+    },
+    {
+      masterLabel = "Ravenna"
+      translation = "Ravena"
+    },
+    {
+      masterLabel = "Reggio Calabria"
+      translation = "Régio da Calábria"
+    },
+    {
+      masterLabel = "Reggio Emilia"
+      translation = "Régio da Emília"
+    },
+    {
+      masterLabel = "Rhode Island"
+      translation = "Ilha Rhode"
+    },
+    {
+      masterLabel = "Rieti"
+      translation = "Rieti"
+    },
+    {
+      masterLabel = "Rimini"
+      translation = "Rimini"
+    },
+    {
+      masterLabel = "Rio Grande do Norte"
+      translation = "Rio Grande do Norte"
+    },
+    {
+      masterLabel = "Rio Grande do Sul"
+      translation = "Rio Grande do Sul"
+    },
+    {
+      masterLabel = "Rio de Janeiro"
+      translation = "Rio de Janeiro"
+    },
+    {
+      masterLabel = "Rome"
+      translation = "Roma"
+    },
+    {
+      masterLabel = "Rondônia"
+      translation = "Rondônia"
+    },
+    {
+      masterLabel = "Roraima"
+      translation = "Roraima"
+    },
+    {
+      masterLabel = "Roscommon"
+      translation = "Roscommon"
+    },
+    {
+      masterLabel = "Rovigo"
+      translation = "Rovigo"
+    },
+    {
+      masterLabel = "Saga"
+      translation = "Saga"
+    },
+    {
+      masterLabel = "Saitama"
+      translation = "Saitama"
+    },
+    {
+      masterLabel = "Salerno"
+      translation = "Salerno"
+    },
+    {
+      masterLabel = "San Luis Potosí"
+      translation = "San Luis Potosí"
+    },
+    {
+      masterLabel = "Santa Catarina"
+      translation = "Santa Catarina"
+    },
+    {
+      masterLabel = "Saskatchewan"
+      translation = "Saskatchewan"
+    },
+    {
+      masterLabel = "Sassari"
+      translation = "Sássari"
+    },
+    {
+      masterLabel = "Savona"
+      translation = "Savona"
+    },
+    {
+      masterLabel = "Sergipe"
+      translation = "Sergipe"
+    },
+    {
+      masterLabel = "Shaanxi"
+      translation = "Shaanxi"
+    },
+    {
+      masterLabel = "Shandong"
+      translation = "Shandong"
+    },
+    {
+      masterLabel = "Shanghai"
+      translation = "Xangai"
+    },
+    {
+      masterLabel = "Shanxi"
+      translation = "Shanxi"
+    },
+    {
+      masterLabel = "Shiga"
+      translation = "Shiga"
+    },
+    {
+      masterLabel = "Shimane"
+      translation = "Shimane"
+    },
+    {
+      masterLabel = "Shizuoka"
+      translation = "Shizuoka"
+    },
+    {
+      masterLabel = "Sichuan"
+      translation = "Sichuan"
+    },
+    {
+      masterLabel = "Siena"
+      translation = "Siena"
+    },
+    {
+      masterLabel = "Sikkim"
+      translation = "Sikkim"
+    },
+    {
+      masterLabel = "Sinaloa"
+      translation = "Sinaloa"
+    },
+    {
+      masterLabel = "Sligo"
+      translation = "Sligo"
+    },
+    {
+      masterLabel = "Sondrio"
+      translation = "Sondrio"
+    },
+    {
+      masterLabel = "Sonora"
+      translation = "Sonora"
+    },
+    {
+      masterLabel = "South Australia"
+      translation = "Sul da Austrália"
+    },
+    {
+      masterLabel = "South Carolina"
+      translation = "Carolina do Sul"
+    },
+    {
+      masterLabel = "South Dakota"
+      translation = "Dakota do Sul"
+    },
+    {
+      masterLabel = "Syracuse"
+      translation = "Siracusa"
+    },
+    {
+      masterLabel = "São Paulo"
+      translation = "São Paulo"
+    },
+    {
+      masterLabel = "Tabasco"
+      translation = "Tabasco"
+    },
+    {
+      masterLabel = "Taiwan"
+      translation = "Taiwan"
+    },
+    {
+      masterLabel = "Tamaulipas"
+      translation = "Tamaulipas"
+    },
+    {
+      masterLabel = "Tamil Nadu"
+      translation = "Tamil Nadu"
+    },
+    {
+      masterLabel = "Taranto"
+      translation = "Taranto"
+    },
+    {
+      masterLabel = "Tasmania"
+      translation = "Tasmânia"
+    },
+    {
+      masterLabel = "Telangana"
+      translation = "Telangana"
+    },
+    {
+      masterLabel = "Tennessee"
+      translation = "Tennessee"
+    },
+    {
+      masterLabel = "Teramo"
+      translation = "Téramo"
+    },
+    {
+      masterLabel = "Terni"
+      translation = "Terni"
+    },
+    {
+      masterLabel = "Texas"
+      translation = "Texas"
+    },
+    {
+      masterLabel = "Tianjin"
+      translation = "Tianjin"
+    },
+    {
+      masterLabel = "Tipperary"
+      translation = "Tipperary"
+    },
+    {
+      masterLabel = "Tlaxcala"
+      translation = "Tlaxcala"
+    },
+    {
+      masterLabel = "Tocantins"
+      translation = "Tocantins"
+    },
+    {
+      masterLabel = "Tochigi"
+      translation = "Tochigi"
+    },
+    {
+      masterLabel = "Tokushima"
+      translation = "Tokushima"
+    },
+    {
+      masterLabel = "Tokyo"
+      translation = "Tóquio"
+    },
+    {
+      masterLabel = "Tottori"
+      translation = "Tottori"
+    },
+    {
+      masterLabel = "Toyama"
+      translation = "Toyama"
+    },
+    {
+      masterLabel = "Trapani"
+      translation = "Trapani"
+    },
+    {
+      masterLabel = "Trento"
+      translation = "Trento"
+    },
+    {
+      masterLabel = "Treviso"
+      translation = "Treviso"
+    },
+    {
+      masterLabel = "Trieste"
+      translation = "Trieste"
+    },
+    {
+      masterLabel = "Tripura"
+      translation = "Tripura"
+    },
+    {
+      masterLabel = "Turin"
+      translation = "Turim"
+    },
+    {
+      masterLabel = "Udine"
+      translation = "Údine"
+    },
+    {
+      masterLabel = "Utah"
+      translation = "Utah"
+    },
+    {
+      masterLabel = "Uttar Pradesh"
+      translation = "Uttar Pradesh"
+    },
+    {
+      masterLabel = "Uttarakhand"
+      translation = "Uttarakhand"
+    },
+    {
+      masterLabel = "Varese"
+      translation = "Varese"
+    },
+    {
+      masterLabel = "Venice"
+      translation = "Veneza"
+    },
+    {
+      masterLabel = "Veracruz"
+      translation = "Veracruz"
+    },
+    {
+      masterLabel = "Verbano-Cusio-Ossola"
+      translation = "Verbano Cusio Ossola"
+    },
+    {
+      masterLabel = "Vercelli"
+      translation = "Vercelli"
+    },
+    {
+      masterLabel = "Vermont"
+      translation = "Vermont"
+    },
+    {
+      masterLabel = "Verona"
+      translation = "Verona"
+    },
+    {
+      masterLabel = "Vibo Valentia"
+      translation = "Vibo Valentia"
+    },
+    {
+      masterLabel = "Vicenza"
+      translation = "Vicenza"
+    },
+    {
+      masterLabel = "Victoria"
+      translation = "Vitória"
+    },
+    {
+      masterLabel = "Virginia"
+      translation = "Virgínia"
+    },
+    {
+      masterLabel = "Viterbo"
+      translation = "Viterbo"
+    },
+    {
+      masterLabel = "Wakayama"
+      translation = "Wakayama"
+    },
+    {
+      masterLabel = "Washington"
+      translation = "Washington"
+    },
+    {
+      masterLabel = "Waterford"
+      translation = "Waterford"
+    },
+    {
+      masterLabel = "West Bengal"
+      translation = "West Bengal"
+    },
+    {
+      masterLabel = "West Virginia"
+      translation = "Virgínia Ocidental"
+    },
+    {
+      masterLabel = "Western Australia"
+      translation = "Oeste da Austrália"
+    },
+    {
+      masterLabel = "Westmeath"
+      translation = "Westmeath"
+    },
+    {
+      masterLabel = "Wexford"
+      translation = "Wexford"
+    },
+    {
+      masterLabel = "Wicklow"
+      translation = "Wicklow"
+    },
+    {
+      masterLabel = "Wisconsin"
+      translation = "Wisconsin"
+    },
+    {
+      masterLabel = "Wyoming"
+      translation = "Wyoming"
+    },
+    {
+      masterLabel = "Xinjiang"
+      translation = "Xinjiang"
+    },
+    {
+      masterLabel = "Xizang"
+      translation = "Xizang"
+    },
+    {
+      masterLabel = "Yamagata"
+      translation = "Yamagata"
+    },
+    {
+      masterLabel = "Yamaguchi"
+      translation = "Yamaguchi"
+    },
+    {
+      masterLabel = "Yamanashi"
+      translation = "Yamanashi"
+    },
+    {
+      masterLabel = "Yucatán"
+      translation = "Yucatán"
+    },
+    {
+      masterLabel = "Yukon Territories"
+      translation = "Território de Yukon"
+    },
+    {
+      masterLabel = "Yunnan"
+      translation = "Yunnan"
+    },
+    {
+      masterLabel = "Zacatecas"
+      translation = "Zacatecas"
+    },
+    {
+      masterLabel = "Zhejiang"
+      translation = "Zhejiang"
+    },
+  ]
+  fullName = "AddressStateCode-pt_BR"
+  _alias = "AddressStateCode-pt_BR"
+}

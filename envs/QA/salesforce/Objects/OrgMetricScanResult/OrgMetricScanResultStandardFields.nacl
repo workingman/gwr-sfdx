@@ -1,0 +1,5 @@
+type salesforce.OrgMetricScanResult {
+  salesforce.Picklist ItemStatus {
+    apiName = "OrgMetricScanResult.ItemStatus"
+  }
+}

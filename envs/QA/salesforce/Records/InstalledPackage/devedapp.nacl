@@ -1,0 +1,4 @@
+salesforce.InstalledPackage devedapp {
+  fullName = "devedapp"
+  _alias = "devedapp"
+}

@@ -1,0 +1,112 @@
+type salesforce.Shipment {
+  salesforce.Unknown ActualDeliveryDate {
+    apiName = "Shipment.ActualDeliveryDate"
+  }
+  salesforce.Lookup DeliveredToId {
+    apiName = "Shipment.DeliveredToId"
+  }
+  salesforce.Unknown Description {
+    apiName = "Shipment.Description"
+  }
+  salesforce.Lookup DestinationLocationId {
+    apiName = "Shipment.DestinationLocationId"
+    label = "Destination Location ID"
+    relationshipName = "DestinationLocation"
+  }
+  salesforce.Unknown ExpectedDeliveryDate {
+    apiName = "Shipment.ExpectedDeliveryDate"
+  }
+  salesforce.Lookup FulfillmentOrderId {
+    apiName = "Shipment.FulfillmentOrderId"
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "Shipment.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Picklist Provider {
+    apiName = "Shipment.Provider"
+  }
+  salesforce.Lookup ReturnOrderId {
+    apiName = "Shipment.ReturnOrderId"
+  }
+  salesforce.Unknown ShipFromAddress {
+    apiName = "Shipment.ShipFromAddress"
+  }
+  salesforce.Unknown ShipToAddress {
+    apiName = "Shipment.ShipToAddress"
+  }
+  salesforce.Text ShipToName {
+    apiName = "Shipment.ShipToName"
+    label = "Ship To Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup SourceLocationId {
+    apiName = "Shipment.SourceLocationId"
+    label = "Source Location ID"
+    relationshipName = "SourceLocation"
+  }
+  salesforce.Picklist Status {
+    apiName = "Shipment.Status"
+  }
+  salesforce.Summary TotalItemsQuantity {
+    apiName = "Shipment.TotalItemsQuantity"
+    label = "Total Items Quantity"
+    scale = 2
+    precision = 18
+  }
+  salesforce.Unknown TrackingNumber {
+    apiName = "Shipment.TrackingNumber"
+  }
+  salesforce.Unknown TrackingUrl {
+    apiName = "Shipment.TrackingUrl"
+  }
+  serviceid Id {
+    apiName = "Shipment.Id"
+    label = "Shipment ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "Shipment.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.AutoNumber ShipmentNumber {
+    apiName = "Shipment.ShipmentNumber"
+    label = "Shipment Number"
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "Shipment.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "Shipment.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "Shipment.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "Shipment.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "Shipment.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}

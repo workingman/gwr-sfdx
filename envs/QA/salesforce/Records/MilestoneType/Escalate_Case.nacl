@@ -1,0 +1,6 @@
+salesforce.MilestoneType Escalate_Case@s {
+  description = "Sets a recurring milestone for escalating a Case."
+  recurrenceType = "recursIndependently"
+  fullName = "Escalate Case"
+  _alias = "Escalate Case"
+}

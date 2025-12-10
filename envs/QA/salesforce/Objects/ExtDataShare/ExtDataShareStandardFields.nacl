@@ -1,0 +1,98 @@
+type salesforce.ExtDataShare {
+  salesforce.Picklist DataShareConsentFormStatus {
+    apiName = "ExtDataShare.DataShareConsentFormStatus"
+    inlineHelpText = "Admins or priviledged users in the receiving organization other than Salesforce Data Cloud can view and query all records of the data lake objects (DLOs) mapped to data model objects (DMOs) in the data share."
+    label = "Consent"
+    restricted = true
+  }
+  salesforce.Picklist DataShareStatus {
+    apiName = "ExtDataShare.DataShareStatus"
+    label = "Data Share Status"
+    _required = true
+    restricted = true
+  }
+  salesforce.Picklist DataShareType {
+    apiName = "ExtDataShare.DataShareType"
+    label = "Data Share Type"
+    restricted = true
+  }
+  salesforce.Text Name {
+    apiName = "ExtDataShare.Name"
+    label = "Data Share Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  serviceid Id {
+    apiName = "ExtDataShare.Id"
+    label = "Data Share ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "ExtDataShare.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "ExtDataShare.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "ExtDataShare.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "ExtDataShare.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "ExtDataShare.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "ExtDataShare.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastDataChangeStatusDateTime {
+    apiName = "ExtDataShare.LastDataChangeStatusDateTime"
+    label = "Last Data Change Status At"
+  }
+  salesforce.Text LastDataChangeStatusErrorCode {
+    apiName = "ExtDataShare.LastDataChangeStatusErrorCode"
+    label = "Last Data Change Status Error Code"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Number ObjectCount {
+    apiName = "ExtDataShare.ObjectCount"
+    label = "Number Of Objects"
+    scale = 0
+    precision = 9
+    unique = false
+  }
+  salesforce.Text InboundDataShareOrgIdentifier {
+    apiName = "ExtDataShare.InboundDataShareOrgIdentifier"
+    label = "Inbound Data Share Organization Id"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text InboundDataShareName {
+    apiName = "ExtDataShare.InboundDataShareName"
+    label = "Inbound Data Share Name"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+}

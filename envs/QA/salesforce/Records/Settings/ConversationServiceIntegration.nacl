@@ -1,0 +1,5 @@
+salesforce.ConversationServiceIntegrationSettings {
+  enableTranslationForAgents = false
+  fullName = "ConversationServiceIntegration"
+  _alias = "ConversationServiceIntegration"
+}

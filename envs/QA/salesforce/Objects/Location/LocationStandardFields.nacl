@@ -1,0 +1,182 @@
+type salesforce.Location {
+  salesforce.Date CloseDate {
+    apiName = "Location.CloseDate"
+    label = "Close Date"
+  }
+  salesforce.Date ConstructionEndDate {
+    apiName = "Location.ConstructionEndDate"
+    label = "Construction End Date"
+  }
+  salesforce.Date ConstructionStartDate {
+    apiName = "Location.ConstructionStartDate"
+    label = "Construction Start Date"
+  }
+  salesforce.Time DefaultPickupTime {
+    apiName = "Location.DefaultPickupTime"
+    label = "Default Pickup Time"
+  }
+  salesforce.Number DefaultProcessingTime {
+    apiName = "Location.DefaultProcessingTime"
+    label = "Default Processing Time"
+    scale = 0
+    precision = 9
+    unique = false
+  }
+  salesforce.Picklist DefaultProcessingTimeUnit {
+    apiName = "Location.DefaultProcessingTimeUnit"
+    label = "Default Processing Time Unit"
+    restricted = true
+  }
+  salesforce.Text Description {
+    apiName = "Location.Description"
+    label = "Description"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text DrivingDirections {
+    apiName = "Location.DrivingDirections"
+    label = "Driving Directions"
+    length = 1000
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Text ExternalReference {
+    apiName = "Location.ExternalReference"
+    label = "External Reference"
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Lookup FulfillingBusinessHoursId {
+    apiName = "Location.FulfillingBusinessHoursId"
+    label = "Business Hours ID"
+    relationshipName = "FulfillingBusinessHours"
+  }
+  salesforce.Checkbox IsInventoryLocation {
+    apiName = "Location.IsInventoryLocation"
+    label = "Inventory Location"
+    defaultValue = false
+  }
+  salesforce.Checkbox IsMobile {
+    apiName = "Location.IsMobile"
+    label = "Mobile Location"
+    defaultValue = false
+  }
+  salesforce.Geolocation Location {
+    apiName = "Location.Location"
+    label = "Location"
+    scale = 0
+  }
+  salesforce.Number LocationLevel {
+    apiName = "Location.LocationLevel"
+    label = "Location Level"
+    scale = 0
+    precision = 9
+    unique = false
+  }
+  salesforce.Picklist LocationType {
+    apiName = "Location.LocationType"
+    label = "Location Type"
+    _required = true
+  }
+  salesforce.Lookup LogoId {
+    apiName = "Location.LogoId"
+    label = "Asset File ID"
+    relationshipName = "Logo"
+  }
+  salesforce.Text Name {
+    apiName = "Location.Name"
+    label = "Location Name"
+    _required = true
+    length = 255
+    unique = false
+    caseSensitive = false
+  }
+  salesforce.Date OpenDate {
+    apiName = "Location.OpenDate"
+    label = "Open Date"
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "Location.OwnerId"
+    label = "Owner ID"
+    relationshipName = "Owner"
+    _hidden_value = true
+  }
+  salesforce.Hierarchy ParentLocationId {
+    apiName = "Location.ParentLocationId"
+    label = "Parent Location ID"
+    relationshipName = "ParentLocation"
+  }
+  salesforce.Date PossessionDate {
+    apiName = "Location.PossessionDate"
+    label = "Possession Date"
+  }
+  salesforce.Date RemodelEndDate {
+    apiName = "Location.RemodelEndDate"
+    label = "Remodel End Date"
+  }
+  salesforce.Date RemodelStartDate {
+    apiName = "Location.RemodelStartDate"
+    label = "Remodel Start Date"
+  }
+  salesforce.Lookup RootLocationId {
+    apiName = "Location.RootLocationId"
+    label = "Root Location ID"
+    relationshipName = "RootLocation"
+  }
+  salesforce.Checkbox ShouldSyncWithOci {
+    apiName = "Location.ShouldSyncWithOci"
+    label = "Sync with OCI"
+    defaultValue = false
+  }
+  salesforce.Picklist TimeZone {
+    apiName = "Location.TimeZone"
+    label = "Time Zone"
+    restricted = true
+  }
+  salesforce.Lookup VisitorAddressId {
+    apiName = "Location.VisitorAddressId"
+    label = "Address ID"
+    relationshipName = "VisitorAddress"
+  }
+  serviceid Id {
+    apiName = "Location.Id"
+    label = "Location ID"
+    queryable = true
+    _hidden_value = true
+  }
+  salesforce.Checkbox IsDeleted {
+    apiName = "Location.IsDeleted"
+    label = "Deleted"
+    defaultValue = false
+    _hidden_value = true
+  }
+  salesforce.DateTime CreatedDate {
+    apiName = "Location.CreatedDate"
+    label = "Created Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup CreatedById {
+    apiName = "Location.CreatedById"
+    label = "Created By ID"
+    relationshipName = "CreatedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime LastModifiedDate {
+    apiName = "Location.LastModifiedDate"
+    label = "Last Modified Date"
+    _hidden_value = true
+  }
+  salesforce.Lookup LastModifiedById {
+    apiName = "Location.LastModifiedById"
+    label = "Last Modified By ID"
+    relationshipName = "LastModifiedBy"
+    _hidden_value = true
+  }
+  salesforce.DateTime SystemModstamp {
+    apiName = "Location.SystemModstamp"
+    label = "System Modstamp"
+    _hidden_value = true
+  }
+}
