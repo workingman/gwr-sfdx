@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Balance</fullName>
+    <type>Currency</type>
+    <required>false</required>
+    <scale>2</scale>
+    <precision>18</precision>
+    <inlineHelpText>Final balance of the snapshot&apos;s reference entity. Inherited from the finance transaction&apos;s resulting balance if the finance transaction&apos;s reference entity is a credit memo, debit memo, invoice, payment, or refund.</inlineHelpText>
+</CustomField>

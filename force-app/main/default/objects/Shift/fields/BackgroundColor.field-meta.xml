@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BackgroundColor</fullName>
+    <type>Text</type>
+    <required>false</required>
+    <length>7</length>
+    <unique>false</unique>
+    <caseSensitive>false</caseSensitive>
+    <inlineHelpText>Set a background color to highlight shifts in the schedule view.</inlineHelpText>
+</CustomField>

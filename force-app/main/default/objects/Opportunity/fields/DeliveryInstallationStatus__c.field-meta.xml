@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DeliveryInstallationStatus__c</fullName>
+    <label>Delivery/Installation Status</label>
+    <type>Picklist</type>
+    <required>false</required>
+    <valueSet>
+        <valueSetDefinition>
+            <value>
+                <fullName>In progress</fullName>
+                <isActive>true</isActive>
+                <label>In progress</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Yet to begin</fullName>
+                <isActive>true</isActive>
+                <label>Yet to begin</label>
+                <default>false</default>
+            </value>
+            <value>
+                <fullName>Completed</fullName>
+                <isActive>true</isActive>
+                <label>Completed</label>
+                <default>false</default>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <trackTrending>false</trackTrending>
+    <trackFeedHistory>false</trackFeedHistory>
+</CustomField>
