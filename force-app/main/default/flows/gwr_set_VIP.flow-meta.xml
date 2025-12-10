@@ -23,6 +23,48 @@
                 <leftValueReference>$Record.Title</leftValueReference>
                 <operator>Contains</operator>
                 <rightValue>
+                    <stringValue>CTO</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Title</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>CMO</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Title</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>President</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Title</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Chief</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Title</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>VP</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Title</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
+                    <stringValue>Vice President</stringValue>
+                </rightValue>
+            </conditions>
+            <conditions>
+                <leftValueReference>$Record.Title</leftValueReference>
+                <operator>Contains</operator>
+                <rightValue>
                     <stringValue>CFO</stringValue>
                 </rightValue>
             </conditions>
