@@ -4,6 +4,7 @@ trigger gwr_segment_trigger on Account (before insert, before update) {
     }
     // 20251209-231226
     // 20251209-232557
+    // 20251209-232914
     private String calculateSegment(Account acc) {
         Integer employees = acc.NumberOfEmployees != null ? acc.NumberOfEmployees : 0;
         Decimal revenue = acc.AnnualRevenue != null ? acc.AnnualRevenue : 0;
