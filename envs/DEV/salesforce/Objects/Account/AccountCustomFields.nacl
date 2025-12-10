@@ -147,6 +147,7 @@ type salesforce.Account {
   }
   salesforce.Text gwr_Customer_Health__c {
     apiName = "Account.gwr_Customer_Health__c"
+    description = "brilliant new description"
     externalId = false
     label = "1Customer Health"
     length = 255
