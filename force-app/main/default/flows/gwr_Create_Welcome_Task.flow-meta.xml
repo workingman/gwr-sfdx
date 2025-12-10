@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Flow xmlns="http://soap.sforce.com/2006/04/metadata">
     <actionCalls>
+        <name>Create_New_Task_Action_2</name>
+        <label>Send Capabilities Deck</label>
+        <actionName>FeedItem.NewTaskFromFeedItem</actionName>
+        <actionType>quickAction</actionType>
+        <flowTransactionModel>CurrentTransaction</flowTransactionModel>
+        <inputParameters>
+            <name>contextId</name>
+            <value>
+                <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>ActivityDate</name>
+            <value>
+                <elementReference>DueDateEnterprise</elementReference>
+            </value>
+        </inputParameters>
+        <nameSegment>FeedItem.NewTaskFromFeedItem</nameSegment>
+        <offset>0</offset>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+    </actionCalls>
+    <actionCalls>
         <name>exec_brief</name>
         <label>Schedule Exec Briefing</label>
         <actionName>FeedItem.NewTaskFromFeedItem</actionName>
@@ -10,6 +33,12 @@
             <name>contextId</name>
             <value>
                 <elementReference>$Record.Id</elementReference>
+            </value>
+        </inputParameters>
+        <inputParameters>
+            <name>ActivityDate</name>
+            <value>
+                <elementReference>DueDateStrategic</elementReference>
             </value>
         </inputParameters>
         <nameSegment>FeedItem.NewTaskFromFeedItem</nameSegment>
@@ -48,12 +77,25 @@
                     <stringValue>Enterprise</stringValue>
                 </rightValue>
             </conditions>
+            <connector>
+                <targetReference>Create_New_Task_Action_2</targetReference>
+            </connector>
             <label>Enterprise</label>
         </rules>
         <locationX>0</locationX>
         <locationY>0</locationY>
     </decisions>
     <environments>Default</environments>
+    <formulas>
+        <name>DueDateEnterprise</name>
+        <dataType>Date</dataType>
+        <expression>{!$Flow.CurrentDate} + 3</expression>
+    </formulas>
+    <formulas>
+        <name>DueDateStrategic</name>
+        <dataType>Date</dataType>
+        <expression>{!$Flow.CurrentDate} + 1</expression>
+    </formulas>
     <interviewLabel>Create Welcome Task {!$Flow.CurrentDateTime}</interviewLabel>
     <label>Create Welcome Task</label>
     <processMetadataValues>
