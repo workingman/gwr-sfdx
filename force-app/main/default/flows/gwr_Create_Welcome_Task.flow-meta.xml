@@ -59,7 +59,7 @@
                 <leftValueReference>$Record.gwr_Customer_Segment__c</leftValueReference>
                 <operator>EqualTo</operator>
                 <rightValue>
-                    <stringValue>Strategic</stringValue>
+                    <stringValue>Strategic_</stringValue>
                 </rightValue>
             </conditions>
             <connector>
