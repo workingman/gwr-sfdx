@@ -12,12 +12,12 @@ trigger gwr_segment_trigger on Account (before insert, before update) {
         Boolean isGrowth = acc.gwr_Growth__c == true;
 
         // Strategic: Large enterprises with high revenue
-        if (employees >= 10000 || revenue >= 3000000000) {
+        if (employees >= 10000 || revenue >= 30000000) {
             return 'Strategic';
         }
 
         // Enterprise: Mid-size companies OR flagged as growth account
-        if (isGrowth || employees >= 2000 || revenue >= 100000000) {
+        if (isGrowth || employees >= 2000 || revenue >= 1000000) {
             return 'Enterprise';
         }
 
